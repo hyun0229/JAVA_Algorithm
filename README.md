@@ -8,4 +8,4 @@
 ### 📌 SWEA (SW Expert Academy)
 | 문제 번호 | 문제 링크 | 코드 |
 |----------|----------|------|
-| 7733번 | [치즈 도둑](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWrDOdQqRCUDFARG) | [SWEA_7744_치즈도둑.java](/Users/hyun/Algorithm/JAVA_Algorithm/src/SWEA/SWEA_7744_치즈도둑.java) |
+| 7733번 | [치즈 도둑](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWrDOdQqRCUDFARG) | [SWEA_7744_치즈도둑.java](src/SWEA/SWEA_7744_치즈도둑.java) |
