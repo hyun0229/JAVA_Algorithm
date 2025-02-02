@@ -12,3 +12,5 @@
 | 문제 번호 | 문제 링크 | 코드 | 난이도 |
 |----------|----------|------|------|
 | 7733번 | [치즈 도둑](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWrDOdQqRCUDFARG) | [SWEA_7744_치즈도둑.java](src/SWEA/SWEA_7744_치즈도둑.java) | D4 |
+| 7699번 | [수지의 수지 맞는 여행](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWqUzj0arpkDFARG) | [SWEA_7744_치즈도둑.java](src/SWEA/SWEA_7699_수지의수지맞은여행.java) | D4 |
+
