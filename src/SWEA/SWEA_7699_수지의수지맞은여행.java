@@ -1,7 +1,5 @@
 package SWEA;
 
-import java.util.ArrayDeque;
-import java.util.Queue;
 import java.util.Scanner;
 
 public class SWEA_7699_수지의수지맞은여행 
@@ -37,11 +35,10 @@ public class SWEA_7699_수지의수지맞은여행
                 char[] row = sc.next().toCharArray();
                 for (int j = 0; j < C; j++) {
                     map[i][j] = row[j];
-                    
                 }
             }
-            //TestTool.test_map(map);
-            dfs(new Point(0, 0),1);
+            //TestTool.test_map(map); //배열 확인용
+            dfs(new Point(0, 0),1); //1행 1열에서 출발...
             System.out.println(String.format("#%d %d",test_case,ans));
 		}
 	}
@@ -56,6 +53,5 @@ public class SWEA_7699_수지의수지맞은여행
             }
         }
         vis[map[now.x][now.y]-'A'] = false;
-        
     }
 }
