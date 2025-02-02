@@ -1,9 +1,8 @@
-package JAVA_Algorithm.src;
+package SWEA;
 import java.util.ArrayDeque;
 import java.util.Arrays;
 import java.util.Queue;
 import java.util.Scanner;
-
 public class SWEA_7744_치즈도둑 {
 
     public static boolean[][] vis;
@@ -33,7 +32,7 @@ public class SWEA_7744_치즈도둑 {
             }
             //test_map(map); //배열 확인용
             int ans = 0;
-            for (int i = 1; i <= 100; i++) { //날짜 1~100일까지
+            for (int i = 0; i <= 100; i++) { //날짜 1~100일까지 인줄알았는데 0일부터 해야함;;
                 vis = new boolean[N][N]; // 방문배열 초기화
                 int temp=0;
                 for (int x = 0; x <N; x++) {
@@ -45,11 +44,8 @@ public class SWEA_7744_치즈도둑 {
                     }
                 }
                 ans = Math.max(ans, temp);
-                if (ans >=50) {
-                    break;
-                }
             }
-            System.out.println("#%d %d".formatted(test_case,ans));
+            System.out.println(String.format("#%d %d", test_case, ans));
 		}
 
 
