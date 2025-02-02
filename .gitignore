@@ -1,6 +1,7 @@
 # Created by https://www.toptal.com/developers/gitignore/api/java,macos,visualstudiocode
 # Edit at https://www.toptal.com/developers/gitignore?templates=java,macos,visualstudiocode
 
+txt.txt
 ### Java ###
 # Compiled class file
 *.class
