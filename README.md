@@ -7,6 +7,7 @@
 | 7576번 | [토마토](https://www.acmicpc.net/problem/7576) | [bj_7576_토마토.java](src/baekjoon/bj_7576_토마토.java) | G5 |
 | 4963번 | [섬의 개수](https://www.acmicpc.net/problem/4963) | [bj_4963_섬의개수.java](src/baekjoon/bj_4963_섬의개수.java) | S2 |
 | 2206번 | [벽 부수고 이동하기](https://www.acmicpc.net/problem/2206) | [bj_2206_벅부수고이동.java](src/baekjoon/bj_2206_벅부수고이동.java) | G3 |
+| 2981번 | [검문](https://www.acmicpc.net/problem/2981) | [bj_2981_검문.java](src/baekjoon/bj_2981_검문.java) | G4 |
 
 ### 📌 프로그래머스 (Programmers)
 
