@@ -30,11 +30,14 @@ public class bj_2206_벅부수고이동 {
         bfs(0,0);
         N-=1;
         M-=1;
-        if (vis[N][M][0] == 0 && vis[N][M][1] ==0)  {
+        if (vis[N][M][0] == 0 && vis[N][M][1] ==0)  { //갈 방법이 없음
             System.out.println(-1);
         }
-        else if (vis[N][M][0] == 0) {
+        else if (vis[N][M][0] == 0) { //벽을 한개 이상 부쉈을때
             System.out.println(vis[N][M][1]);
+        }
+        else if (vis[N][M][1] == 0) { //장애물이 하나도 없을때
+            System.out.println(vis[N][M][0]);
         }
         else{
             System.out.println(Math.min(vis[N][M][0], vis[N][M][1]));
@@ -56,11 +59,11 @@ public class bj_2206_벅부수고이동 {
                         vis[p.x][p.y][0] +=vis[now.x][now.y][0]+1;
                         q.offer(p);
                     }
-                    if (vis[now.x][now.y][0] != 0 && map[p.x][p.y]==1 && vis[p.x][p.y][1] == 0) { //처음 벽뚫
+                    if (vis[now.x][now.y][0] != 0 && map[p.x][p.y]==1 && vis[p.x][p.y][1] == 0) { //처음으로 벽을 뚫음
                         vis[p.x][p.y][1] += vis[now.x][now.y][0]+1;
                         q.offer(p);
                     }
-                    if (vis[p.x][p.y][1] == 0 && vis[now.x][now.y][1] != 0 && map[p.x][p.y]== 0 && vis[p.x][p.y][0] == 0) {
+                    if (vis[p.x][p.y][1] == 0 && vis[now.x][now.y][1] != 0 && map[p.x][p.y]== 0 && vis[p.x][p.y][0] == 0) { //벽뚫 이후
                         vis[p.x][p.y][1] += vis[now.x][now.y][1]+1;
                         q.offer(p);
                     }
