@@ -16,3 +16,4 @@
 |----------|----------|------|------|
 | 7733번 | [치즈 도둑](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWrDOdQqRCUDFARG) | [SWEA_7744_치즈도둑.java](src/SWEA/SWEA_7744_치즈도둑.java) | D4 |
 | 7699번 | [수지의 수지 맞는 여행](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWqUzj0arpkDFARG) | [SWEA_7699_수지의수지맞은여행.java](src/SWEA/SWEA_7699_수지의수지맞은여행.java) | D4 |
+| 1247번 | [최적 경로](https://swexpertacademy.com/main/code/problem/problemSolver.do?contestProbId=AV15OZ4qAPICFAYD) | [SWEA_1247_최적경로.java](src/SWEA/SWEA_1247_최적경로.java) | D5 |
