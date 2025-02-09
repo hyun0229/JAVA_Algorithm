@@ -7,7 +7,7 @@ import java.util.ArrayDeque;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class bj_1600_말이되고픈원숭이 {
+public class boj_1600_말이되고픈원숭이 {
     public static Point[] monkey_move = {
         new Point(0, 1,0),new Point(0, -1,0),new Point(1, 0,0),new Point(-1, 0,0)
     };

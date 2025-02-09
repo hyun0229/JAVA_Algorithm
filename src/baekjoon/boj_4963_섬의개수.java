@@ -8,7 +8,7 @@ import java.util.Queue;
 import java.util.StringTokenizer;
 
 
-public class bj_4963_섬의개수 {
+public class boj_4963_섬의개수 {
     public static int w,h;
     public static int[][] map;
     public static boolean vis[][];

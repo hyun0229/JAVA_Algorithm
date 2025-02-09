@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 import java.util.Stack;
 
-public class bj_16637_괄호추가하기 {
+public class boj_16637_괄호추가하기 {
     static int ans;
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

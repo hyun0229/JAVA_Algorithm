@@ -7,7 +7,7 @@ import java.util.ArrayDeque;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class bj_1194_달이차오른다가자 {
+public class boj_1194_달이차오른다가자 {
     static int[][][] vis;
     static int N,M;
     static char map[][];

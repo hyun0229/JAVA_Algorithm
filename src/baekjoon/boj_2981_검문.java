@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class bj_2981_검문 {
+public class boj_2981_검문 {
 
     public static int getGCD(int num1, int num2) {
         if (num1 % num2 == 0) {

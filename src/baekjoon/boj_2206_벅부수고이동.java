@@ -9,7 +9,7 @@ import java.util.StringTokenizer;
 
 //import SWEA.TestTool;
 
-public class bj_2206_벅부수고이동 {
+public class boj_2206_벅부수고이동 {
     public static int map[][];
     public static int N,M;
     public static int[][][] vis;

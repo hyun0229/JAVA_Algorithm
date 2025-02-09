@@ -7,7 +7,7 @@ import java.util.ArrayDeque;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class bj_7576_토마토 {
+public class boj_7576_토마토 {
 
     public static int[][] map;
     public static int N,M;

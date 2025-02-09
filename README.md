@@ -4,13 +4,13 @@
 ### 📌 백준 (Baekjoon)
 | 문제 번호 | 문제 링크 | 코드 | 난이도 |
 |----------|----------|------|------|
-| 7576번 | [토마토](https://www.acmicpc.net/problem/7576) | [bj_7576_토마토.java](src/baekjoon/bj_7576_토마토.java) | G5 |
-| 4963번 | [섬의 개수](https://www.acmicpc.net/problem/4963) | [bj_4963_섬의개수.java](src/baekjoon/bj_4963_섬의개수.java) | S2 |
-| 2206번 | [벽 부수고 이동하기](https://www.acmicpc.net/problem/2206) | [bj_2206_벅부수고이동.java](src/baekjoon/bj_2206_벅부수고이동.java) | G3 |
-| 2981번 | [검문](https://www.acmicpc.net/problem/2981) | [bj_2981_검문.java](src/baekjoon/bj_2981_검문.java) | G4 |
-| 1600번 | [말이 되고픈 원숭이](https://www.acmicpc.net/problem/1600) | [bj_1600_말이되고픈원숭이.java](src/baekjoon/bj_1600_말이되고픈원숭이.java) | G3 |
-| 1194번 | [달이 차오른다, 가자.](https://www.acmicpc.net/problem/1194) | [bj_1194_달이차오른다가자.java](src/baekjoon/bj_1194_달이차오른다가자.java) | G1 |
-| 16637번 | [괄호 추가하기 ](https://www.acmicpc.net/problem/16637) | [bj_16637_괄호추가하기.javaa](src/baekjoon/bj_16637_괄호추가하기.java) | G3 |
+| 7576번 | [토마토](https://www.acmicpc.net/problem/7576) | [boj_7576_토마토.java](src/baekjoon/boj_7576_토마토.java) | G5 |
+| 4963번 | [섬의 개수](https://www.acmicpc.net/problem/4963) | [boj_4963_섬의개수.java](src/baekjoon/boj_4963_섬의개수.java) | S2 |
+| 2206번 | [벽 부수고 이동하기](https://www.acmicpc.net/problem/2206) | [boj_2206_벅부수고이동.java](src/baekjoon/boj_2206_벅부수고이동.java) | G3 |
+| 2981번 | [검문](https://www.acmicpc.net/problem/2981) | [boj_2981_검문.java](src/baekjoon/boj_2981_검문.java) | G4 |
+| 1600번 | [말이 되고픈 원숭이](https://www.acmicpc.net/problem/1600) | [boj_1600_말이되고픈원숭이.java](src/baekjoon/boj_1600_말이되고픈원숭이.java) | G3 |
+| 1194번 | [달이 차오른다, 가자.](https://www.acmicpc.net/problem/1194) | [boj_1194_달이차오른다가자.java](src/baekjoon/boj_1194_달이차오른다가자.java) | G1 |
+| 16637번 | [괄호 추가하기 ](https://www.acmicpc.net/problem/16637) | [boj_16637_괄호추가하기.javaa](src/baekjoon/boj_16637_괄호추가하기.java) | G3 |
 
 ### 📌 프로그래머스 (Programmers)
 
