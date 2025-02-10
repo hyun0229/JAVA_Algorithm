@@ -10,7 +10,9 @@
 | 2981번 | [검문](https://www.acmicpc.net/problem/2981) | [boj_2981_검문.java](src/baekjoon/boj_2981_검문.java) | G4 |
 | 1600번 | [말이 되고픈 원숭이](https://www.acmicpc.net/problem/1600) | [boj_1600_말이되고픈원숭이.java](src/baekjoon/boj_1600_말이되고픈원숭이.java) | G3 |
 | 1194번 | [달이 차오른다, 가자.](https://www.acmicpc.net/problem/1194) | [boj_1194_달이차오른다가자.java](src/baekjoon/boj_1194_달이차오른다가자.java) | G1 |
-| 16637번 | [괄호 추가하기 ](https://www.acmicpc.net/problem/16637) | [boj_16637_괄호추가하기.javaa](src/baekjoon/boj_16637_괄호추가하기.java) | G3 |
+| 16637번 | [괄호 추가하기](https://www.acmicpc.net/problem/16637) | [boj_16637_괄호추가하기.javaa](src/baekjoon/boj_16637_괄호추가하기.java) | G3 |
+| 17472번 | [다리 만들기 2](https://www.acmicpc.net/problem/16637) | [boj_17472_다리만들기2.javaa](src/baekjoon/boj_17472_다리만들기2.java) | G1 |
+
 
 ### 📌 프로그래머스 (Programmers)
 
