@@ -3,10 +3,10 @@ package baekjoon;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.lang.reflect.Array;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.StringTokenizer;
+
+
 
 public class boj_17406_배열돌리기4 {
     static int N,M,K,ans;
@@ -41,13 +41,13 @@ public class boj_17406_배열돌리기4 {
         recursive(0,new ArrayList<Integer>());
         
         //정답 출력
+        System.out.println(ans);
     }
     private static void recursive(int lv, ArrayList<Integer> arr) {
         if (lv == K) {
             for (Integer i : arr) {
                 rotation(i,true);
             }
-
             for (int[] row : map) {
                 int num = 0;
                 for (int i : row) {
@@ -55,43 +55,92 @@ public class boj_17406_배열돌리기4 {
                 }
                 ans = Math.min(num, ans);
             }
-            for (int i = K-1; i > 0; i--) {
+            for (int i = K-1; i >= 0; i--) {
                 rotation(arr.get(i), false); //배열 원상복구
             }
             return;
         }
         for (int i = 0; i < K; i++) {
-            vis[i] = true;
-            arr.add(i);
-            recursive(lv+1, arr);
-            vis[i] = false;
-            arr.remove(arr.size()-1); 
-            recursive(lv, arr);
+            if (!vis[i]) {
+                vis[i] = true;
+                arr.add(i);
+                recursive(lv+1, arr);
+                vis[i] = false;
+                arr.remove(arr.size()-1); 
+            }
         }
 
     }
     private static void rotation(Integer num,boolean flag) {
-        boolean[][] V = new boolean[N][M];
         int r = calc[num][0]-1;
         int c = calc[num][1]-1;
         int s = calc[num][2];
-        int[] T1 = {1,0,-1,0};
-        int[] T2 = {0,1,0,-1};
-        int[] dx,dy;
-        if (flag) {dx = T1;dy=T2;}
-        else{dx = T2; dy =T1;}
-        //배열 true false 확인
         for (int i = 1; i <= s; i++) {
-            int nor = (i*2-1)*4+4; //총 회전횟수
-            int x = r-i; int y = c - i;
-            int temp = map[x][y];
-            int lv = 0;
-            for (int j = 0; j < nor ; j++) {
-                if (x) {
-                    
-                }
+            ArrayList<Integer> arr =  extractRing(r,c,i);
+            if (flag) {
+                int last = arr.get(arr.size()-1);
+                arr.remove(arr.size()-1);
+                arr.add(0,last);
             }
+            else{
+                int first = arr.get(0);
+                arr.remove(0);
+                arr.add(first);
+            }
+            filling(r,c,i,arr);
         }
+    }
+    private static ArrayList<Integer> extractRing(int r,int c,int lv) {
+        ArrayList<Integer> arr = new ArrayList<>();
+        int num = lv*2+1;
+        int right = num;
+        int bottom = num-1;
+        int left = num-1;
+        int top = num-2;
+        int x = r-lv;
+        int y= c-lv;
+        for (int i = 0; i < right; i++) {
+            arr.add(map[x][y++]); 
+        }
+        y--;x++;
+        for (int i = 0; i < bottom; i++) {
+            arr.add(map[x++][y]);   
+        }
+        x--;y--;
+        for (int i = 0; i < left; i++) {
+            arr.add(map[x][y--]); 
+        }
+        x--;y++;
+        for (int i = 0; i < top; i++) {
+            arr.add(map[x--][y]);
+        }
+        return arr;
+    }
 
+
+    private static void filling(int r, int c, int lv, ArrayList<Integer> arr) {
+        int num = lv*2+1;
+        int right = num;
+        int bottom = num-1;
+        int left = num-1;
+        int top = num-2;
+        int x = r-lv;
+        int y= c-lv;
+        int step =0;
+        for (int i = 0; i < right; i++) {
+            map[x][y++] = arr.get(step++);
+        }
+        y--;x++;
+        for (int i = 0; i < bottom; i++) {
+            map[x++][y] = arr.get(step++);
+        }
+        x--;y--;
+        for (int i = 0; i < left; i++) {
+            map[x][y--] = arr.get(step++);
+        }
+        x--;y++;
+        for (int i = 0; i < top; i++) {
+            map[x--][y] = arr.get(step++);
+        }
     }
 }
