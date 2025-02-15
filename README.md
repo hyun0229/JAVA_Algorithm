@@ -18,6 +18,8 @@
 | 1941 | [소문난 칠공주](https://www.acmicpc.net/problem/1941) | [boj_1941_소문난칠공주.java](src\baekjoon\boj_1941_소문난칠공주.java) | G3 |
 | 17281 | [⚾](https://www.acmicpc.net/problem/17281) | [boj_17281_야구.java](src\baekjoon\boj_17281_야구.java) | G4 |
 | 17406 | [배열 돌리기 4](https://www.acmicpc.net/problem/17406) | [boj_17281_야구.java](src\baekjoon\boj_17406_배열돌리기4.java) | G4 |
+| 3954 | [Brainf**k 인터프리터](https://www.acmicpc.net/problem/39546) | [boj_3954_인터프리터.java](src\baekjoon\boj_3954_인터프리터.java) | G1 |
+
 
 
 ### 📌 프로그래머스 (Programmers)

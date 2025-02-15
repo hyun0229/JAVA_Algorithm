@@ -3,15 +3,14 @@ package baekjoon;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayDeque;
 import java.util.Stack;
 import java.util.StringTokenizer;
 
 public class boj_3954_인터프리터 {
-    static final long limt_roop =  50000000;
-    static final long MAX_VALUE = (long) Math.pow(2, 8);
+    static final int limt_roop =  50000000;
+    static final short MAX_VALUE = 255;
     static int sm, sc, si;
-    
+    static int[][] matching;
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
@@ -21,21 +20,31 @@ public class boj_3954_인터프리터 {
             sm = Integer.parseInt(st.nextToken());
             sc = Integer.parseInt(st.nextToken());
             si = Integer.parseInt(st.nextToken()); 
-            long[] memory = new long[sm];
+            short[] memory = new short[sm];
             char[] ip = new String(br.readLine()).toCharArray();
             char[] chars = new String(br.readLine()).toCharArray();
+            matching = new int[sc][2];
+            Stack<Integer> stack = new Stack<>();
+            for (int i = 0; i < sc; i++) {
+                if (ip[i] == '[') {
+                    stack.push(i);
+                } else if (ip[i] == ']') {
+                    int openIndex = stack.pop(); 
+                    matching[openIndex][0] = i; 
+                    matching[i][0] = openIndex;     
+                }
+            }
+            stack.clear();
             check(memory,ip,chars); 
         }
     }
                 
-    private static void check(long[] memory, char[] ip, char[] chars) {
-        long time = 0;
+    private static void check(short[] memory, char[] ip, char[] chars) {
+        int time = 0;
         int i = 0;
         int index = 0;
         int char_index = 0;
-        Stack<long[]> stackL = new Stack<>();
-        //Stack<long[]> stackR = new Stack<>();
-        while (i!=sc) {
+        while (i<sc) {
             switch (ip[i]) {
                 case '-':
                     memory[index]--;
@@ -58,40 +67,37 @@ public class boj_3954_인터프리터 {
                     i++;
                     break;
                 case ',':
-                    if(char_index == si)memory[index] +=255;
-                    else memory[index] += chars[char_index++];
-                    if(memory[index]> MAX_VALUE)memory[index] = memory[index]%MAX_VALUE-1;
+                    if(char_index == si)memory[index] =255;
+                    else memory[index] = (short)chars[char_index++];
+                    if(memory[index]> MAX_VALUE)memory[index] = (short)((short)memory[index]%(MAX_VALUE+1));
                     i++;
                     break;
                 case '[':
                     if (memory[index] == 0){
-                        while (true){
-                            if (ip[i++] == ']')break;
-                        }
+                        i = matching[i][0]+1;
                     }
                     else{
-                        if (stackL.isEmpty() || stackL.peek()[0] != i) {
-                            stackL.add(new long[]{i,-1});
-                            i++;
-                        }
+                        i++;
                     }
                     break;
+
                 case ']':
                     if (memory[index] == 0) {
+                        matching[i][1]= 0;
                         i++;
-                        stackL.pop();
                     }
-                    else if(stackL.peek()[1] !=-1 && limt_roop<= time - stackL.peek()[1]){
-                        System.out.println(String.format("Loops %d %d", stackL.peek()[0], i));
+  
+                    else if(matching[i][1]!=0 && limt_roop<= time - matching[i][1]){
+                        System.out.println(String.format("Loops %d %d", matching[i][0], i));
                         return;
                     }
                     else{
-                        i = (int) stackL.peek()[0]+1;
-                        if(stackL.peek()[1]==-1){
-                            stackL.pop();
-                            stackL.add(new long[]{i-1,time});
+                        if (matching[i][1] ==0) {
+                            matching[i][1] = time;
                         }
+                        i = matching[i][0]+1;
                     }
+                    
                     break;
                 
                 default:

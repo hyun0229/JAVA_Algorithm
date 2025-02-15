@@ -1,0 +1,147 @@
+{
+    // IntelliSense를 사용하여 가능한 특성에 대해 알아보세요.
+    // 기존 특성에 대한 설명을 보려면 가리킵니다.
+    // 자세한 내용을 보려면 https://go.microsoft.com/fwlink/?linkid=830387을(를) 방문하세요.
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "SWEA_1247_최적경로",
+            "request": "launch",
+            "mainClass": "SWEA.SWEA_1247_최적경로",
+            "projectName": "JAVA_Algorithm_cb6f5ac1"
+        },
+        {
+            "type": "java",
+            "name": "SWEA_14510_나무높이",
+            "request": "launch",
+            "mainClass": "SWEA.SWEA_14510_나무높이",
+            "projectName": "JAVA_Algorithm_cb6f5ac1"
+        },
+        {
+            "type": "java",
+            "name": "SWEA_7699_수지의수지맞은여행",
+            "request": "launch",
+            "mainClass": "SWEA.SWEA_7699_수지의수지맞은여행",
+            "projectName": "JAVA_Algorithm_cb6f5ac1"
+        },
+        {
+            "type": "java",
+            "name": "SWEA_7744_치즈도둑",
+            "request": "launch",
+            "mainClass": "SWEA.SWEA_7744_치즈도둑",
+            "projectName": "JAVA_Algorithm_cb6f5ac1"
+        },
+        {
+            "type": "java",
+            "name": "boj_1194_달이차오른다가자",
+            "request": "launch",
+            "mainClass": "baekjoon.boj_1194_달이차오른다가자",
+            "projectName": "JAVA_Algorithm_cb6f5ac1"
+        },
+        {
+            "type": "java",
+            "name": "boj_1600_말이되고픈원숭이",
+            "request": "launch",
+            "mainClass": "baekjoon.boj_1600_말이되고픈원숭이",
+            "projectName": "JAVA_Algorithm_cb6f5ac1"
+        },
+        {
+            "type": "java",
+            "name": "boj_16637_괄호추가하기",
+            "request": "launch",
+            "mainClass": "baekjoon.boj_16637_괄호추가하기",
+            "projectName": "JAVA_Algorithm_cb6f5ac1"
+        },
+        {
+            "type": "java",
+            "name": "boj_17070_파이프옮기기1",
+            "request": "launch",
+            "mainClass": "baekjoon.boj_17070_파이프옮기기1",
+            "projectName": "JAVA_Algorithm_cb6f5ac1"
+        },
+        {
+            "type": "java",
+            "name": "boj_17135_캐술디펜스",
+            "request": "launch",
+            "mainClass": "baekjoon.boj_17135_캐술디펜스",
+            "projectName": "JAVA_Algorithm_cb6f5ac1"
+        },
+        {
+            "type": "java",
+            "name": "boj_17281_야구",
+            "request": "launch",
+            "mainClass": "baekjoon.boj_17281_야구",
+            "projectName": "JAVA_Algorithm_cb6f5ac1"
+        },
+        {
+            "type": "java",
+            "name": "boj_17406_배열돌리기4",
+            "request": "launch",
+            "mainClass": "baekjoon.boj_17406_배열돌리기4",
+            "projectName": "JAVA_Algorithm_cb6f5ac1"
+        },
+        {
+            "type": "java",
+            "name": "boj_17471_게리맨더링",
+            "request": "launch",
+            "mainClass": "baekjoon.boj_17471_게리맨더링",
+            "projectName": "JAVA_Algorithm_cb6f5ac1"
+        },
+        {
+            "type": "java",
+            "name": "boj_17472_다리만들기2",
+            "request": "launch",
+            "mainClass": "baekjoon.boj_17472_다리만들기2",
+            "projectName": "JAVA_Algorithm_cb6f5ac1"
+        },
+        {
+            "type": "java",
+            "name": "boj_1941_소문난칠공주",
+            "request": "launch",
+            "mainClass": "baekjoon.boj_1941_소문난칠공주",
+            "projectName": "JAVA_Algorithm_cb6f5ac1"
+        },
+        {
+            "type": "java",
+            "name": "boj_2206_벅부수고이동",
+            "request": "launch",
+            "mainClass": "baekjoon.boj_2206_벅부수고이동",
+            "projectName": "JAVA_Algorithm_cb6f5ac1"
+        },
+        {
+            "type": "java",
+            "name": "boj_2981_검문",
+            "request": "launch",
+            "mainClass": "baekjoon.boj_2981_검문",
+            "projectName": "JAVA_Algorithm_cb6f5ac1"
+        },
+        {
+            "type": "java",
+            "name": "boj_3954_인터프리터",
+            "request": "launch",
+            "mainClass": "baekjoon.boj_3954_인터프리터",
+            "projectName": "JAVA_Algorithm_cb6f5ac1"
+        },
+        {
+            "type": "java",
+            "name": "boj_4963_섬의개수",
+            "request": "launch",
+            "mainClass": "baekjoon.boj_4963_섬의개수",
+            "projectName": "JAVA_Algorithm_cb6f5ac1"
+        },
+        {
+            "type": "java",
+            "name": "boj_7576_토마토",
+            "request": "launch",
+            "mainClass": "baekjoon.boj_7576_토마토",
+            "projectName": "JAVA_Algorithm_cb6f5ac1"
+        }
+    ]
+}
