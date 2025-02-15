@@ -86,7 +86,6 @@ public class boj_3954_인터프리터 {
                         matching[i][1]= 0;
                         i++;
                     }
-  
                     else if(matching[i][1]!=0 && limt_roop<= time - matching[i][1]){
                         System.out.println(String.format("Loops %d %d", matching[i][0], i));
                         return;
