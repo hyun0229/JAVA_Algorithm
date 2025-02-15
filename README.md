@@ -15,10 +15,10 @@
 | 17471번 | [게리맨더링](https://www.acmicpc.net/problem/17471) | [boj_17471_게리맨더링.java](src\baekjoon\boj_17471_게리맨더링.java) | G3 |
 | 17070번 | [파이프 옮기기 1](https://www.acmicpc.net/problem/17070) | [boj_17070_파이프옮기기1.java](src\baekjoon\boj_17070_파이프옮기기1.java) | G5 |
 | 17135번 | [캐슬 디펜스](https://www.acmicpc.net/problem/17135) | [boj_17135_캐술디펜스.java](src\baekjoon\boj_17135_캐술디펜스.java) | G3 |
-| 1941 | [소문난 칠공주](https://www.acmicpc.net/problem/1941) | [boj_1941_소문난칠공주.java](src\baekjoon\boj_1941_소문난칠공주.java) | G3 |
-| 17281 | [⚾](https://www.acmicpc.net/problem/17281) | [boj_17281_야구.java](src\baekjoon\boj_17281_야구.java) | G4 |
-| 17406 | [배열 돌리기 4](https://www.acmicpc.net/problem/17406) | [boj_17281_야구.java](src\baekjoon\boj_17406_배열돌리기4.java) | G4 |
-| 3954 | [Brainf**k 인터프리터](https://www.acmicpc.net/problem/39546) | [boj_3954_인터프리터.java](src\baekjoon\boj_3954_인터프리터.java) | G1 |
+| 1941번 | [소문난 칠공주](https://www.acmicpc.net/problem/1941) | [boj_1941_소문난칠공주.java](src\baekjoon\boj_1941_소문난칠공주.java) | G3 |
+| 17281번 | [⚾](https://www.acmicpc.net/problem/17281) | [boj_17281_야구.java](src\baekjoon\boj_17281_야구.java) | G4 |
+| 17406번 | [배열 돌리기 4](https://www.acmicpc.net/problem/17406) | [boj_17281_야구.java](src\baekjoon\boj_17406_배열돌리기4.java) | G4 |
+| 3954번 | [Brainf**k 인터프리터](https://www.acmicpc.net/problem/39546) | [boj_3954_인터프리터.java](src\baekjoon\boj_3954_인터프리터.java) | G1 |
 
 
 
