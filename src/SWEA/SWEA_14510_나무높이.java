@@ -1,6 +1,7 @@
 package SWEA;
 
 import java.util.Arrays;
+import java.util.PriorityQueue;
 import java.util.Scanner;
 
 public class SWEA_14510_나무높이 {
@@ -41,6 +42,7 @@ public class SWEA_14510_나무높이 {
                 ans = (day2 - (num/2))*2;
             }
             System.out.println(String.format("#%d %d",test_case,ans));
+            
         }
     }
 }

@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SWEA_1949",
+            "request": "launch",
+            "mainClass": "SWEA.SWEA_1949",
+            "projectName": "JAVA_Algorithm_6d1e3e7e"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "SWEA.Solution",
+            "projectName": "JAVA_Algorithm_6d1e3e7e"
+        },
+        {
+            "type": "java",
             "name": "Solution",
             "request": "launch",
             "mainClass": "SWEA.Solution",
