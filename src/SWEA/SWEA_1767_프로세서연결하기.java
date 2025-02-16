@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 import java.io.FileInputStream;
 
-class Solution
+public class SWEA_1767_프로세서연결하기
 {
     static int map[][], N, ans[];
     static ArrayList<int[]> arr;
