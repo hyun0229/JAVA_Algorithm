@@ -16,7 +16,6 @@ public class pg_72411_메뉴리뉴얼 {
     }
 }
 
-
 class Solution {
     ArrayList<String> ansls;
     HashMap<String,Integer> chk;

@@ -20,12 +20,12 @@
 | 17406번 | [배열 돌리기 4](https://www.acmicpc.net/problem/17406) | [boj_17281_야구.java](src\baekjoon\boj_17406_배열돌리기4.java) | G4 |
 | 3954번 | [Brainf**k 인터프리터](https://www.acmicpc.net/problem/39546) | [boj_3954_인터프리터.java](src\baekjoon\boj_3954_인터프리터.java) | G1 |
 
-
-
 ### 📌 프로그래머스 (Programmers)
 | 문제 번호 | 문제 링크 | 코드 | 난이도 |
 |----------|----------|------|------|
 | 72411 | [메뉴 리뉴얼](https://school.programmers.co.kr/learn/courses/30/lessons/72411) | [pg_72411_메뉴리뉴얼.java](src\Programmers\pg_72411_메뉴리뉴얼.java) | Lv2 |
+| 43165 | [타겟 넘버](https://school.programmers.co.kr/learn/courses/30/lessons/43165) | [pg_43165_타겟넘버.java](src\Programmers\pg_43165_타겟넘버.java) | Lv2 |
+| 87946 | [피로도](https://school.programmers.co.kr/learn/courses/30/lessons/87946) | [pg_87946_피로도.java](src\Programmers\pg_87946_피로도.java) | Lv2 |
 
 ### 📌 SWEA (SW Expert Academy)
 | 문제 번호 | 문제 링크 | 코드 | 난이도 |
