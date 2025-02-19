@@ -26,6 +26,7 @@
 | 72411 | [메뉴 리뉴얼](https://school.programmers.co.kr/learn/courses/30/lessons/72411) | [pg_72411_메뉴리뉴얼.java](src\Programmers\pg_72411_메뉴리뉴얼.java) | Lv2 |
 | 43165 | [타겟 넘버](https://school.programmers.co.kr/learn/courses/30/lessons/43165) | [pg_43165_타겟넘버.java](src\Programmers\pg_43165_타겟넘버.java) | Lv2 |
 | 87946 | [피로도](https://school.programmers.co.kr/learn/courses/30/lessons/87946) | [pg_87946_피로도.java](src\Programmers\pg_87946_피로도.java) | Lv2 |
+| 42890 | [후보키](https://school.programmers.co.kr/learn/courses/30/lessons/42890) | [pg_42890_후보키.java](src\Programmers\pg_42890_후보키.java) | Lv2 |
 
 ### 📌 SWEA (SW Expert Academy)
 | 문제 번호 | 문제 링크 | 코드 | 난이도 |

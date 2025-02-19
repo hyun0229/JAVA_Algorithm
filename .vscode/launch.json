@@ -9,6 +9,13 @@
             "name": "pg_42890_후보키",
             "request": "launch",
             "mainClass": "Programmers.pg_42890_후보키",
+            "projectName": "JAVA_Algorithm_6d1e3e7e"
+        },
+        {
+            "type": "java",
+            "name": "pg_42890_후보키",
+            "request": "launch",
+            "mainClass": "Programmers.pg_42890_후보키",
             "projectName": "JAVA_Algorithm_5b491167"
         },
         {
