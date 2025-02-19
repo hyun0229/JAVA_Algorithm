@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "pg_72411",
+            "request": "launch",
+            "mainClass": "Programmers.pg_72411",
+            "projectName": "JAVA_Algorithm_5b491167"
+        },
+        {
+            "type": "java",
             "name": "SWEA_2382_미생물격리",
             "request": "launch",
             "mainClass": "SWEA.SWEA_2382_미생물격리",
