@@ -9,6 +9,13 @@
             "name": "pg_43164_여행경로",
             "request": "launch",
             "mainClass": "Programmers.pg_43164_여행경로",
+            "projectName": "JAVA_Algorithm_5b491167"
+        },
+        {
+            "type": "java",
+            "name": "pg_43164_여행경로",
+            "request": "launch",
+            "mainClass": "Programmers.pg_43164_여행경로",
             "projectName": "JAVA_Algorithm_6d1e3e7e"
         },
         {
