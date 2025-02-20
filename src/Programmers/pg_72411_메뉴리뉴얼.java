@@ -11,12 +11,12 @@ public class pg_72411_메뉴리뉴얼 {
     public static void main(String[] args) {
         String[] order1 = new String[]{"ABCFG", "AC", "CDE", "ACDE", "BCFG", "ACDEH"};
         int[] course1 = new int[]{2,3,4};
-        Solution s = new Solution();
+        Solution_72411 s = new Solution_72411();
         System.out.println(Arrays.toString(s.solution(order1, course1)));
     }
 }
 
-class Solution {
+class Solution_72411 {
     ArrayList<String> ansls;
     HashMap<String,Integer> chk;
     int max = 0;
