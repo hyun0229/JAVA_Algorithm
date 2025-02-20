@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "pg_87694_아이템줍기",
+            "request": "launch",
+            "mainClass": "Programmers.pg_87694_아이템줍기",
+            "projectName": "JAVA_Algorithm_5b491167"
+        },
+        {
+            "type": "java",
             "name": "pg_43164_여행경로",
             "request": "launch",
             "mainClass": "Programmers.pg_43164_여행경로",

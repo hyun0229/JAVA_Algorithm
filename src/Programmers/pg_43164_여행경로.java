@@ -70,9 +70,11 @@ class Solution_43164 {
         int idx = chkMap.get(airport);
         for (Node n : arr.get(idx)) {
             if (n.vis)continue;
+            n.vis = true;
             ans.add(n.goal);
             dfs(n.goal, chkMap, arr,size);
             if (flag)return;
+            n.vis = false;
             ans.remove(ans.size()-1);
         }
     }
