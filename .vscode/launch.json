@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "pg_67260_동굴탐험",
+            "request": "launch",
+            "mainClass": "Programmers.pg_67260_동굴탐험",
+            "projectName": "JAVA_Algorithm_6d1e3e7e"
+        },
+        {
+            "type": "java",
             "name": "pg_64064_불량사용자",
             "request": "launch",
             "mainClass": "Programmers.pg_64064_불량사용자",
