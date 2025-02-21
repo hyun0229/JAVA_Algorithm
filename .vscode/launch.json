@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "pg_172927_광물캐기",
+            "request": "launch",
+            "mainClass": "Programmers.pg_172927_광물캐기",
+            "projectName": "JAVA_Algorithm_5b491167"
+        },
+        {
+            "type": "java",
+            "name": "pg_176962_과제진행하기",
+            "request": "launch",
+            "mainClass": "Programmers.pg_176962_과제진행하기",
+            "projectName": "JAVA_Algorithm_5b491167"
+        },
+        {
+            "type": "java",
             "name": "pg_72413_합승택시요금",
             "request": "launch",
             "mainClass": "Programmers.pg_72413_합승택시요금",

@@ -33,6 +33,7 @@
 | 67260 | [동굴 탐험](https://school.programmers.co.kr/learn/courses/30/lessons/67260) | [pg_67260_동굴탐험.java](src/Programmers/pg_67260_동굴탐험.java) | Lv4 |
 | 12978 | [배달](https://school.programmers.co.kr/learn/courses/30/lessons/12978) | [pg_12978_배달.java](src/Programmers/pg_12978_배달.java) | Lv2 |
 | 72413 | [합승 택시 요금](https://school.programmers.co.kr/learn/courses/30/lessons/72413) | [pg_72413_합승택시요금.java](src/Programmers/pg_72413_합승택시요금.java) | Lv3 |
+| 172927 | [광물 캐기](https://school.programmers.co.kr/learn/courses/30/lessons/172927) | [pg_172927_광물캐기.java](src/Programmers/pg_172927_광물캐기.java) | Lv1 |
 
 ### 📌 SWEA (SW Expert Academy)
 | 문제 번호 | 문제 링크 | 코드 | 난이도 |
