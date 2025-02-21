@@ -33,10 +33,10 @@ class Solution_64064 {
                 if (!check(user_id[arr.get(i)],banned_id[i]))return;
             }
             ans++;
-            for (Integer integer : arr) {
-                System.out.print(user_id[integer]+", ");
-            }
-            System.out.println();
+            // for (Integer integer : arr) {
+            //     System.out.print(user_id[integer]+", ");
+            // }
+            // System.out.println();
             chkHashSet.add(sum);
             return;
         }

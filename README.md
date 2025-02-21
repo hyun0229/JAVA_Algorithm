@@ -31,6 +31,7 @@
 | 43164 | [아이템 줍기](https://school.programmers.co.kr/learn/courses/30/lessons/87694) | [pg_87694_아이템줍기.java](src/Programmers/pg_87694_아이템줍기.java) | Lv3 |
 | 64064 | [불량 사용자](https://school.programmers.co.kr/learn/courses/30/lessons/64064) | [pg_64064_불량사용자.java](src/Programmers/pg_64064_불량사용자.java) | Lv3 |
 | 67260 | [동굴 탐험](https://school.programmers.co.kr/learn/courses/30/lessons/67260) | [pg_67260_동굴탐험.java](src/Programmers/pg_67260_동굴탐험.java) | Lv4 |
+| 12978 | [배달](https://school.programmers.co.kr/learn/courses/30/lessons/12978) | [pg_12978_배달.java](src/Programmers/pg_12978_배달.java) | Lv2 |
 
 ### 📌 SWEA (SW Expert Academy)
 | 문제 번호 | 문제 링크 | 코드 | 난이도 |
