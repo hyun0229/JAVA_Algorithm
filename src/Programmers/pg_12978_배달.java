@@ -20,8 +20,6 @@ public class pg_12978_배달 {
     }
 
 }
-
-
 class Solution_12978 {
     public int solution(int N, int[][] road, int K) {
         ArrayList<Vertex>[] arr = new ArrayList[N];
@@ -57,7 +55,6 @@ class Solution_12978 {
         for (int i : dist) {
             if(i<=K)cnt++;
         }
-        System.out.println(Arrays.toString(dist));
         return cnt;
     }
     static class Vertex implements Comparable<Vertex>{

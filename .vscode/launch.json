@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "pg_72413_합승택시요금",
+            "request": "launch",
+            "mainClass": "Programmers.pg_72413_합승택시요금",
+            "projectName": "JAVA_Algorithm_5b491167"
+        },
+        {
+            "type": "java",
             "name": "pg_12978_배달",
             "request": "launch",
             "mainClass": "Programmers.pg_12978_배달",
