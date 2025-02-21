@@ -44,3 +44,4 @@
 | 1949 | [등산로 조성](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PoOKKAPIDFAUq) | [SWEA_1949_등산로조성.java](src/SWEA/SWEA_1949_등산로조성.java) | SW Test 샘플문제 |
 | 2382 | [미생물 격리](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV597vbqAH0DFAVl&) | [SWEA_2382_미생물격리.java](src/SWEA/SWEA_2382_미생물격리.java) | SW Test 샘플문제 |
 | 2383 | [점심 식사시간](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5-BEE6AK0DFAVl&) | [SWEA_2383_점심시간.java](src/SWEA/SWEA_2383_점심시간.java) | SW Test 샘플문제 |
+| 1225 | [암호생성기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14uWl6AF0CFAYD) | [SWEA_1225_암호생성기.java](src/SWEA/SWEA_1225_암호생성기.java) | D3 |
