@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "boj_16926_배열돌리기1",
+            "request": "launch",
+            "mainClass": "baekjoon.boj_16926_배열돌리기1",
+            "projectName": "JAVA_Algorithm_5b491167"
+        },
+        {
+            "type": "java",
             "name": "pg_150369_택배배달과수거하기",
             "request": "launch",
             "mainClass": "Programmers.pg_150369_택배배달과수거하기",
