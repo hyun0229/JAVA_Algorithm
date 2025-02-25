@@ -35,12 +35,14 @@ public class boj_16926_배열돌리기1 {
             lotation(nx,ny,i);
             nx++;ny++;
         }
+        StringBuilder sb = new StringBuilder();
         for (int i = 0; i < N; i++) {
             for (int j = 0; j < M; j++) {
-                System.out.print(String.format("%d ", map[i][j]));
+                sb.append(map[i][j]).append(" ");
             }
-            System.out.println();
+            sb.append("\n");
         }
+        System.out.println(sb);
     }
     private static void lotation(int nx, int ny,int lv) {
         int i = nx;
@@ -56,6 +58,7 @@ public class boj_16926_배열돌리기1 {
                 px = i + dx[num];
                 py = j + dy[num];
             }
+
             q.add(map[px][py]);
             i = px;
             j = py;
