@@ -20,6 +20,7 @@
 | 17406번 | [배열 돌리기 4](https://www.acmicpc.net/problem/17406) | [boj_17281_야구.java](src/baekjoon/boj_17406_배열돌리기4.java) | G4 |
 | 3954번 | [Brainf**k 인터프리터](https://www.acmicpc.net/problem/39546) | [boj_3954_인터프리터.java](src/baekjoon/boj_3954_인터프리터.java) | G1 |
 | 16926번 | [배열 돌리기 1](https://www.acmicpc.net/problem/16926) | [boj_16926_배열돌리기1.java](src/baekjoon/boj_16926_배열돌리기1.java) | G5 |
+| 17144번 | [미세먼지 안녕!](https://www.acmicpc.net/problem/17144) | [boj_17144_미세먼지안녕.java](src/baekjoon/boj_17144_미세먼지안녕.java) | G4 |
 
 ### 📌 프로그래머스 (Programmers)
 | 문제 번호 | 문제 링크 | 코드 | 난이도 |

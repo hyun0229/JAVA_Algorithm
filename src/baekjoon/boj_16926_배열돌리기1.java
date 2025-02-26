@@ -4,7 +4,6 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayDeque;
-import java.util.Arrays;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
@@ -32,7 +31,7 @@ public class boj_16926_배열돌리기1 {
         int ny = 0;
         int min = Math.min(N, M);
         for (int i = 0; i < min/2+min%2; i++) {
-            lotation(nx,ny,i);
+            lotation(nx,ny);
             nx++;ny++;
         }
         StringBuilder sb = new StringBuilder();
@@ -44,7 +43,7 @@ public class boj_16926_배열돌리기1 {
         }
         System.out.println(sb);
     }
-    private static void lotation(int nx, int ny,int lv) {
+    private static void lotation(int nx, int ny) {
         int i = nx;
         int j = ny;
         int num = 0;

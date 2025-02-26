@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "boj_17144_미세먼지안녕",
+            "request": "launch",
+            "mainClass": "baekjoon.boj_17144_미세먼지안녕",
+            "projectName": "JAVA_Algorithm_5b491167"
+        },
+        {
+            "type": "java",
             "name": "boj_16926_배열돌리기1",
             "request": "launch",
             "mainClass": "baekjoon.boj_16926_배열돌리기1",
