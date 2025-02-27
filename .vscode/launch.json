@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "boj_10350_Banks",
+            "request": "launch",
+            "mainClass": "baekjoon.boj_10350_Banks",
+            "projectName": "JAVA_Algorithm_5b491167"
+        },
+        {
+            "type": "java",
             "name": "SWEA_4796_의석이의우뚝선산",
             "request": "launch",
             "mainClass": "SWEA.SWEA_4796_의석이의우뚝선산",

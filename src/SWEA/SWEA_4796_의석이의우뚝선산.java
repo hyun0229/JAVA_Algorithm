@@ -35,7 +35,6 @@ public class SWEA_4796_의석이의우뚝선산 {
                     else if(!flag && tmp <now)up++;
                     tmp = now;
                 }
-                System.out.println(down+" "+up);
             }
             ans+=down * up;
             System.out.println(String.format("#%d %d",test_case, ans));
