@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SWEA_4796_의석이의우뚝선산",
+            "request": "launch",
+            "mainClass": "SWEA.SWEA_4796_의석이의우뚝선산",
+            "projectName": "JAVA_Algorithm_5b491167"
+        },
+        {
+            "type": "java",
+            "name": "SWEA_1486_장훈이의높은선반",
+            "request": "launch",
+            "mainClass": "SWEA.SWEA_1486_장훈이의높은선반",
+            "projectName": "JAVA_Algorithm_5b491167"
+        },
+        {
+            "type": "java",
             "name": "boj_17144_미세먼지안녕",
             "request": "launch",
             "mainClass": "baekjoon.boj_17144_미세먼지안녕",

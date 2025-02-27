@@ -4,7 +4,6 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayDeque;
-import java.util.Arrays;
 import java.util.Deque;
 import java.util.Queue;
 import java.util.StringTokenizer;
@@ -35,7 +34,6 @@ public class boj_17144_미세먼지안녕{
         // for (int[] is : map) {
         //     System.out.println(Arrays.toString(is));
         // }
-
         System.out.println(ans);
     }
 
@@ -87,15 +85,6 @@ public class boj_17144_미세먼지안녕{
             map[x][y]-= p*cnt;
         }
     }
-    static public class Node {
-        int x,y,p;
-        public Node (int x, int y, int p){
-            this.x = x;
-            this.y = y;
-            this.p = p;
-        }
-        
-    }
     private static void lotation(int bottom,int top,boolean flag) {
         int i = bottom;
         int j = 0; 
@@ -125,7 +114,6 @@ public class boj_17144_미세먼지안녕{
             q.addFirst(tmp);
         }
 
-
         map[i][j] = q.poll();
         num = 0;
         while(!q.isEmpty()) {
@@ -150,4 +138,13 @@ public class boj_17144_미세먼지안녕{
             map[bottom][1] = 0;
         }
     }
+    static public class Node {
+        int x,y,p;
+        public Node (int x, int y, int p){
+            this.x = x;
+            this.y = y;
+            this.p = p;
+        }        
+    }
+    
 }

@@ -49,3 +49,5 @@
 | 2382 | [미생물 격리](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV597vbqAH0DFAVl&) | [SWEA_2382_미생물격리.java](src/SWEA/SWEA_2382_미생물격리.java) | SW Test 샘플문제 |
 | 2383 | [점심 식사시간](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5-BEE6AK0DFAVl&) | [SWEA_2383_점심시간.java](src/SWEA/SWEA_2383_점심시간.java) | SW Test 샘플문제 |
 | 1225 | [암호생성기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14uWl6AF0CFAYD) | [SWEA_1225_암호생성기.java](src/SWEA/SWEA_1225_암호생성기.java) | D3 |
+| 1486 | [장훈이의 높은 선반](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV2b7Yf6ABcBBASw) | [SWEA_1486_장훈이의높은선반.java](src/SWEA/SWEA_1486_장훈이의높은선반.java) | D3 |
+| 4769 | [의석이의 우뚝 선 산](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWS2h6AKBCoDFAVT) | [SWEA_4796_의석이의우뚝선산.java](src/SWEA/SWEA_4796_의석이의우뚝선산.java) | D4 |
