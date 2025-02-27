@@ -52,8 +52,9 @@ class Solution_67260 {
         int cnt =0;
         Queue<Integer> q = new ArrayDeque<>();
         q.add(0);
-        degree[0] = 0;
+        degree[0] -= 1;
         vis[0] = true;
+        if(degree[0]!=0)return false;
         while (!q.isEmpty()) {
             int now = q.poll();
             cnt ++;
@@ -67,6 +68,4 @@ class Solution_67260 {
 
         return cnt==n;
     }
-
-
 }

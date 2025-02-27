@@ -39,6 +39,7 @@
 | 172927 | [광물 캐기](https://school.programmers.co.kr/learn/courses/30/lessons/172927) | [pg_172927_광물캐기.java](src/Programmers/pg_172927_광물캐기.java) | Lv1 |
 | 150369 | [택배 배달과 수거하기](https://school.programmers.co.kr/learn/courses/30/lessons/150369) | [pg_150369_택배배달과수거하기.java](src/Programmers/pg_150369_택배배달과수거하기.java) | Lv2 |
 
+
 ### 📌 SWEA (SW Expert Academy)
 | 문제 번호 | 문제 링크 | 코드 | 난이도 |
 |----------|----------|------|------|
@@ -52,3 +53,4 @@
 | 1225 | [암호생성기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14uWl6AF0CFAYD) | [SWEA_1225_암호생성기.java](src/SWEA/SWEA_1225_암호생성기.java) | D3 |
 | 1486 | [장훈이의 높은 선반](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV2b7Yf6ABcBBASw) | [SWEA_1486_장훈이의높은선반.java](src/SWEA/SWEA_1486_장훈이의높은선반.java) | D3 |
 | 4769 | [의석이의 우뚝 선 산](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWS2h6AKBCoDFAVT) | [SWEA_4796_의석이의우뚝선산.java](src/SWEA/SWEA_4796_의석이의우뚝선산.java) | D4 |
+| 1861 | [정사각형 방](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5LtJYKDzsDFAXc) | [SWEA_1861_정사각형방.java](src/Programmers/SWEA_1861_정사각형방.java) | Lv4 |
