@@ -25,6 +25,7 @@
 | 3109번 | [빵집](https://www.acmicpc.net/problem/3109) | [boj_3109_빵집.java](src/baekjoon/boj_3109_빵집.java) | G2 |
 | 20188번 | [등산 마니아](https://www.acmicpc.net/problem/20188) | [boj_20188_등산마니아.java](src/baekjoon/boj_20188_등산마니아.java) | P5 |
 | 1074번 | [Z](https://www.acmicpc.net/problem/1074) | [boj_1074_Z.java](src/baekjoon/boj_1074_Z.java) | G5 |
+| 24678번 | [돌무더기 게임 1](https://www.acmicpc.net/problem/24678) | [boj_24678_돌무더기게임1](src/baekjoon/boj_24678_돌무더기게임1) | G2 |
 
 
 ### 📌 프로그래머스 (Programmers)

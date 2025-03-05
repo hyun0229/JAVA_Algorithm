@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "boj_24678_돌무더기게임1",
+            "request": "launch",
+            "mainClass": "baekjoon.boj_24678_돌무더기게임1",
+            "projectName": "JAVA_Algorithm_6d1e3e7e"
+        },
+        {
+            "type": "java",
             "name": "SWEA_5644_무선충전",
             "request": "launch",
             "mainClass": "SWEA.SWEA_5644_무선충전",

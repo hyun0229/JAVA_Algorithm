@@ -81,18 +81,12 @@ public class SWEA_5644_무선충전 {
             for (int i = 0; i <= time; i++) {
                 int sum = 0;
                 if (!atime[i].isEmpty() && !btime[i].isEmpty()) {
-                    // 각 사용자별 최고 후보 BC 추출
                     BC a1 = atime[i].poll();
                     BC b1 = btime[i].poll();
                     if (a1.number != b1.number) {
-                        // 서로 다른 BC이면 두 전력 합산
                         sum = a1.power + b1.power;
                     } else {
-                        // 두 사용자가 같은 BC를 선택한 경우
-                        // 옵션 1: 두 사용자 모두 같은 BC를 사용 → 총 충전량 = a1.power
                         int option1 = a1.power;
-                        
-                        // 옵션 2: 한쪽은 최고 후보, 다른 쪽은 대체 후보를 사용하는 경우
                         int a2 = 0, b2 = 0;
                         if (!atime[i].isEmpty()) {
                             a2 = atime[i].peek().power;
