@@ -2,10 +2,9 @@ package SWEA;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Set;
+import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 
 
@@ -46,9 +45,11 @@ public class SWEA_5644_무선충전 {
                     }
                 }
             }
-            node[] nodes = new node[time+1];
-            for (int i = 0; i < nodes.length; i++) {
-                nodes[i] = new node();
+            PriorityQueue<BC>[] atime = new PriorityQueue[time+1];
+            PriorityQueue<BC>[] btime = new PriorityQueue[time+1];
+            for (int i = 0; i < btime.length; i++) {
+                atime[i] = new PriorityQueue<>();
+                btime[i] = new PriorityQueue<>();
             }
             for (int k = 0; k < N; k++) {
                 st = new StringTokenizer(br.readLine());
@@ -62,104 +63,70 @@ public class SWEA_5644_무선충전 {
                         int num = Math.abs(x-i)+Math.abs(y-j);
                         if (num>d||map[i][j].size()==0)continue;
                         for ( Map.Entry<Integer, Integer> entry: map[i][j].entrySet()) {
-                            udpatetime(entry.getKey(),entry.getValue(),nodes[entry.getKey()],power);
+                            if (entry.getValue() == 0) {
+                                atime[entry.getKey()].add(new BC(k,power));
+                            }
+                            else if (entry.getValue() == 1) {
+                                btime[entry.getKey()].add(new BC(k,power));
+                            }
+                            else{
+                                atime[entry.getKey()].add(new BC(k,power));
+                                btime[entry.getKey()].add(new BC(k,power));
+                            }
                         }
                     }
                 }
             }
             int ans = 0;
-            int a= 0;
-            int b =0;
-            for (node node : nodes) {
-                System.out.print(node.a+" ");
-                a+= node.a;
+            for (int i = 0; i <= time; i++) {
+                int sum = 0;
+                if (!atime[i].isEmpty() && !btime[i].isEmpty()) {
+                    // 각 사용자별 최고 후보 BC 추출
+                    BC a1 = atime[i].poll();
+                    BC b1 = btime[i].poll();
+                    if (a1.number != b1.number) {
+                        // 서로 다른 BC이면 두 전력 합산
+                        sum = a1.power + b1.power;
+                    } else {
+                        // 두 사용자가 같은 BC를 선택한 경우
+                        // 옵션 1: 두 사용자 모두 같은 BC를 사용 → 총 충전량 = a1.power
+                        int option1 = a1.power;
+                        
+                        // 옵션 2: 한쪽은 최고 후보, 다른 쪽은 대체 후보를 사용하는 경우
+                        int a2 = 0, b2 = 0;
+                        if (!atime[i].isEmpty()) {
+                            a2 = atime[i].peek().power;
+                        }
+                        if (!btime[i].isEmpty()) {
+                            b2 = btime[i].peek().power;
+                        }
+                        int option2 = Math.max(a2 + b1.power, a1.power + b2);
+                        sum = Math.max(option1, option2);
+                    }
+                    ans += sum;
+                } else if (!atime[i].isEmpty()) {
+                    ans += atime[i].poll().power;
+                } else if (!btime[i].isEmpty()) {
+                    ans += btime[i].poll().power;
+                }
             }
-            System.out.println();
-            for (node node : nodes) {
-                System.out.print(node.b+" ");
-                b+= node.b;
-            }
-            System.out.println();
-            System.out.println(a);
-            System.out.println(b);
-            System.out.println(a+b);
+            System.out.println(String.format("#%d %d",test_case,ans));
 		}
 	
     }
-    private static void udpatetime(Integer time, Integer flag, node node,int power) {
-        if (!node.flag) {
-            if (flag == 0) {
-                if (node.a < power) {
-                    node.a = power;
-                    return;
-                }
-            }
-            if (flag == 1) {
-                if (node.b < power) {
-                    node.b = power;
-                    return;
-                }
-            }
-            if (flag == 2) {
-                if (node.a + node.b < power) {
-                    node.a = power/2;
-                    node.b = power/2;
-                    node.flag = true;
-                    return;
-                }
-                if (node.a < node.b) {
-                    if (node.b<power) {
-                        node.b = power;
-                    }
-                    else if(node.a<power){
-                        node.a = power;
-                    }
-                    return;
-                }
-                if (node.a > node.b) {
-                    if (node.a<power) {
-                        node.a = power;
-                    }
-                    else if(node.b<power){
-                        node.b = power;
-                    }
-                    return;
-                }
-            }
+
+    static class BC implements Comparable<BC>{
+        int number,power;
+
+        BC(int number, int power){
+            this.number = number;
+            this.power = power;
         }
-        else{
-            if (flag == 0) {
-                if (node.a < power) {
-                    node.a = power;
-                    node.b *=2;
-                    node.flag = false;
-                    return;
-                }
-            }
-            if (flag == 1) {
-                if (node.b < power) {
-                    node.b = power;
-                    node.a *=2;
-                    node.flag = false;
-                    return;
-                }
-            }
-            if (flag == 2) {
-                if (node.a + node.b < power) {
-                    node.a = power/2;
-                    node.b = power/2;
-                    return;
-                }
-            }
+
+        @Override
+        public int compareTo(BC o) {
+            return Integer.compare(o.power, this.power);
         }
-    }
-    static class node{
-        int a,b;
-        boolean flag;
-        node(){
-            this.a = 0;
-            this.b = 0;
-            this.flag = true;
-        }
+        
     }
 }
