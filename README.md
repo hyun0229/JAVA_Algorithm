@@ -23,7 +23,8 @@
 | 17144번 | [미세먼지 안녕!](https://www.acmicpc.net/problem/17144) | [boj_17144_미세먼지안녕.java](src/baekjoon/boj_17144_미세먼지안녕.java) | G4 |
 | 10359번 | [Banks](https://www.acmicpc.net/problem/10350) | [boj_10350_Banks.java](src/baekjoon/boj_10350_Banks.java) | R5 |
 | 3109번 | [빵집](https://www.acmicpc.net/problem/3109) | [boj_3109_빵집.java](src/baekjoon/boj_3109_빵집.java) | G2 |
-| 20188번 | [등산 마니아](https://www.acmicpc.net/problem/20188) | [boj_20188_등산마니아.java](src/baekjoon/boj_20188_등산마니아.java) | p5 |
+| 20188번 | [등산 마니아](https://www.acmicpc.net/problem/20188) | [boj_20188_등산마니아.java](src/baekjoon/boj_20188_등산마니아.java) | P5 |
+| 1074번 | [Z](https://www.acmicpc.net/problem/1074) | [boj_1074_Z.java](src/baekjoon/boj_1074_Z.java) | G5 |
 
 
 ### 📌 프로그래머스 (Programmers)

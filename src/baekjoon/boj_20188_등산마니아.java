@@ -43,5 +43,4 @@ public class boj_20188_등산마니아 {
         if (start!=0)ans += (N - v - 1) * (v + 1) + ((v + 1) * v) / 2;
         return (int) (v+1);
     }
-
 }

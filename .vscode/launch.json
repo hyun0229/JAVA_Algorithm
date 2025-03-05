@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "boj_1074_Z",
+            "request": "launch",
+            "mainClass": "baekjoon.boj_1074_Z",
+            "projectName": "JAVA_Algorithm_5b491167"
+        },
+        {
+            "type": "java",
             "name": "boj_20188_등산마니아",
             "request": "launch",
             "mainClass": "baekjoon.boj_20188_등산마니아",
