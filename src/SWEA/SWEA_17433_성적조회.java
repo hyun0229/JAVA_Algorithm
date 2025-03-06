@@ -1,6 +1,7 @@
 package SWEA;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.StringTokenizer;
 import java.util.TreeSet;
@@ -116,43 +117,54 @@ class UserSolution {
 	}
 
 	public int add(int mId, int mGrade, char mGender[], int mScore) {
-        int gender = mGender.length==4?0:1;
+		
+        int gender = mGender[0]=='m'?0:1;
         studentId.put(mId, new information(mGrade-1, gender,mScore));
         students[mGrade-1][gender].add(new Student(mId, mScore));
-		return students[mGrade-1][gender].last().id;
+		int ans = students[mGrade-1][gender].last().id;
+		//System.out.println(ans);
+		return ans;
 	}
 
 	public int remove(int mId) {
+		if (!studentId.containsKey(mId)){
+			//System.out.println(0);
+			return 0;
+		}
         int grade = studentId.get(mId).grade;
         int gender = studentId.get(mId).gender;
         int score = studentId.get(mId).score;
         studentId.remove(mId);
         students[grade][gender].remove(new Student(mId, score));
-        if (!students[grade][gender].isEmpty()) return students[grade][gender].first().id; 
+        if (!students[grade][gender].isEmpty()){
+			int num = students[grade][gender].first().id; 
+			//System.out.println(num);
+			return num;
+		} 
+		//System.out.println(0);
         return 0;
 	}
 
 	public int query(int mGradeCnt, int mGrade[], int mGenderCnt, char mGender[][], int mScore) {
         TreeSet<Student> ts = new TreeSet<>();
-        for (int grade : mGrade) {
-            if (grade == 0) {
-                System.out.println("grade : 0임");
-            }
-            else if (grade == 3) {
-                System.out.println("grade : 3임");
-            }
-            for (char[] cs : mGender) {
-                int gender = cs.length==4?0:1;
+		for (int i = 0; i < mGradeCnt; i++) {
+			int grade = mGrade[i];
+			for (int j = 0; j < mGenderCnt; j++) {
+				char[] cs = mGender[j];
+				int gender = cs[0]=='m'?0:1;
                 Student result = students[grade-1][gender].ceiling(new Student(0,mScore));
                 if (result == null)continue;
                 ts.add(result);
-            }
-        }
-        if (!ts.isEmpty())return ts.last().id;
+			}
+
+		}
+        if (!ts.isEmpty()){
+			//System.out.println(ts.first().id);
+			return ts.first().id;
+		}
+		//System.out.println(0);
 		return 0;
 	}
-
-
 
     static class Student implements Comparable<Student>{
         int id, score;

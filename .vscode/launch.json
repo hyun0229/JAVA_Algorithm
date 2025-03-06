@@ -9,6 +9,13 @@
             "name": "SWEA_17433_성적조회",
             "request": "launch",
             "mainClass": "SWEA.SWEA_17433_성적조회",
+            "projectName": "JAVA_Algorithm_6d1e3e7e"
+        },
+        {
+            "type": "java",
+            "name": "SWEA_17433_성적조회",
+            "request": "launch",
+            "mainClass": "SWEA.SWEA_17433_성적조회",
             "projectName": "JAVA_Algorithm_5b491167"
         },
         {
