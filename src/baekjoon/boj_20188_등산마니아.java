@@ -12,6 +12,7 @@ public class boj_20188_등산마니아 {
     static ArrayList<Integer>[] arr_ls;
     static long ans;
     static boolean vis[];
+
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
@@ -22,10 +23,10 @@ public class boj_20188_등산마니아 {
         for (int i = 0; i < N; i++) {
             arr_ls[i] = new ArrayList<>();
         }
-        for (int i = 0; i < N-1; i++) {
+        for (int i = 0; i < N - 1; i++) {
             st = new StringTokenizer(br.readLine());
-            int x = Integer.parseInt(st.nextToken())-1;
-            int y = Integer.parseInt(st.nextToken())-1;
+            int x = Integer.parseInt(st.nextToken()) - 1;
+            int y = Integer.parseInt(st.nextToken()) - 1;
             arr_ls[x].add(y);
             arr_ls[y].add(x);
         }
@@ -33,14 +34,17 @@ public class boj_20188_등산마니아 {
         dfs(0);
         System.out.println(ans);
     }
+
     private static int dfs(int start) {
         long v = 0;
         for (int i : arr_ls[start]) {
-            if (vis[i]) continue;
+            if (vis[i])
+                continue;
             vis[i] = true;
             v += dfs(i);
         }
-        if (start!=0)ans += (N - v - 1) * (v + 1) + ((v + 1) * v) / 2;
-        return (int) (v+1);
+        if (start != 0)
+            ans += (N - v - 1) * (v + 1) + ((v + 1) * v) / 2;
+        return (int) (v + 1);
     }
 }

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "boj_15683_감시",
+            "request": "launch",
+            "mainClass": "baekjoon.boj_15683_감시",
+            "projectName": "JAVA_Algorithm_949a2228"
+        },
+        {
+            "type": "java",
             "name": "SWEA_1861_정사각형방",
             "request": "launch",
             "mainClass": "SWEA.SWEA_1861_정사각형방",
