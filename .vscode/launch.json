@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SWEA_1861_정사각형방",
+            "request": "launch",
+            "mainClass": "SWEA.SWEA_1861_정사각형방",
+            "projectName": "JAVA_Algorithm_949a2228"
+        },
+        {
+            "type": "java",
+            "name": "SWEA_14616",
+            "request": "launch",
+            "mainClass": "SWEA.SWEA_14616",
+            "projectName": "JAVA_Algorithm_949a2228"
+        },
+        {
+            "type": "java",
             "name": "SWEA_17433_성적조회",
             "request": "launch",
             "mainClass": "SWEA.SWEA_17433_성적조회",
