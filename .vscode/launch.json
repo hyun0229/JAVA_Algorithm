@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SWEA_17433_성적조회",
+            "request": "launch",
+            "mainClass": "SWEA.SWEA_17433_성적조회",
+            "projectName": "JAVA_Algorithm_6d1e3e7e"
+        },
+        {
+            "type": "java",
+            "name": "SWEA_17433_성적조회",
+            "request": "launch",
+            "mainClass": "SWEA.SWEA_17433_성적조회",
+            "projectName": "JAVA_Algorithm_5b491167"
+        },
+        {
+            "type": "java",
+            "name": "boj_24678_돌무더기게임1",
+            "request": "launch",
+            "mainClass": "baekjoon.boj_24678_돌무더기게임1",
+            "projectName": "JAVA_Algorithm_6d1e3e7e"
+        },
+        {
+            "type": "java",
+            "name": "SWEA_5644_무선충전",
+            "request": "launch",
+            "mainClass": "SWEA.SWEA_5644_무선충전",
+            "projectName": "JAVA_Algorithm_6d1e3e7e"
+        },
+        {
+            "type": "java",
+            "name": "SWEA_5644_무선충전",
+            "request": "launch",
+            "mainClass": "SWEA.SWEA_5644_무선충전",
+            "projectName": "JAVA_Algorithm_5b491167"
+        },
+        {
+            "type": "java",
+            "name": "boj_1074_Z",
+            "request": "launch",
+            "mainClass": "baekjoon.boj_1074_Z",
+            "projectName": "JAVA_Algorithm_5b491167"
+        },
+        {
+            "type": "java",
+            "name": "boj_20188_등산마니아",
+            "request": "launch",
+            "mainClass": "baekjoon.boj_20188_등산마니아",
+            "projectName": "JAVA_Algorithm_5b491167"
+        },
+        {
+            "type": "java",
             "name": "boj_3109_빵집",
             "request": "launch",
             "mainClass": "baekjoon.boj_3109_빵집",
