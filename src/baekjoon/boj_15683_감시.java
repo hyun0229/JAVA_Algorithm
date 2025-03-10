@@ -10,9 +10,10 @@ import java.util.StringTokenizer;
 public class boj_15683_감시 {
     static CCTV[] cctvs;
     static int map[][], N, M;
-    static int[] dx = { 0, 1, 0, - 1 };
+    static int[] dx = { 0, 1, 0, -1 };
     static int[] dy = { 1, 0, -1, 0 };
     static int ans = 0;
+
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -83,8 +84,7 @@ public class boj_15683_감시 {
             for (int j = 0; j < M; j++) {
                 if (map[i][j] == 9) {
                     map[i][j] = 0;
-                }
-                else if (map[i][j]==0) {
+                } else if (map[i][j] == 0) {
                     cnt++;
                 }
             }

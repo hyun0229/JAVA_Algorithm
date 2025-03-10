@@ -8,8 +8,6 @@ public class SWEA_2382_미생물격리 {
 	static ArrayList<Integer>[][] map;
 	public static void main(String args[]) throws Exception
 	{
-		
-
 		Scanner sc = new Scanner(System.in);
 		int T;
 		T=sc.nextInt();
@@ -66,7 +64,6 @@ public class SWEA_2382_미생물격리 {
 								}
 							}
 							micro[tmp].m = sum; 
-	
 						}
 						map[i][j].clear();
 					}
