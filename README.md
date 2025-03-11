@@ -61,7 +61,7 @@
 | 1225 | [암호생성기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV14uWl6AF0CFAYD) | [SWEA_1225_암호생성기.java](src/SWEA/SWEA_1225_암호생성기.java) | D3 |
 | 1486 | [장훈이의 높은 선반](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV2b7Yf6ABcBBASw) | [SWEA_1486_장훈이의높은선반.java](src/SWEA/SWEA_1486_장훈이의높은선반.java) | D3 |
 | 4769 | [의석이의 우뚝 선 산](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWS2h6AKBCoDFAVT) | [SWEA_4796_의석이의우뚝선산.java](src/SWEA/SWEA_4796_의석이의우뚝선산.java) | D4 |
-| 1861 | [정사각형 방](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5LtJYKDzsDFAXc) | [SWEA_1861_정사각형방.java](src/Programmers/SWEA_1861_정사각형방.java) | Lv4 |
+| 1861 | [정사각형 방](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5LtJYKDzsDFAXc) | [SWEA_1861_정사각형방.java](src/Programmers/SWEA_1861_정사각형방.java) | D4 |
 | 5644 | [무선 충전](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRDL1aeugDFAUo) | [SWEA_5644_무선충전.java](src/Programmers/SWEA_1861_정사각형방.java) | 모의 SW 역량테스트 |
 | 17433 | 성적조회 | [SWEA_17433_성적조회.java](src/Programmers/SWEA_17433_성적조회.java) | -- |
 | 14616 | 승강제리그 | [SWEA_14616_승강제리그.java](src/Programmers/SWEA_14616_승강제리그.java) | -- |
