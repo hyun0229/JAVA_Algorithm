@@ -27,6 +27,8 @@
 | 1074번 | [Z](https://www.acmicpc.net/problem/1074) | [boj_1074_Z.java](src/baekjoon/boj_1074_Z.java) | G5 |
 | 24678번 | [돌무더기 게임 1](https://www.acmicpc.net/problem/24678) | [boj_24678_돌무더기게임1](src/baekjoon/boj_24678_돌무더기게임1) | G2 |
 | 15683번 | [감시](https://www.acmicpc.net/problem/15683) | [boj_15683_감시](src/baekjoon/boj_15683_감시) | G2 |
+| 14502번 | [연구소](https://www.acmicpc.net/problem/14502) | [boj_14502_연구소](src/baekjoon/boj_14502_연구소) | G4 |
+| 2252번 | [줄 세우기](https://www.acmicpc.net/problem/2252) | [boj_2252_줄세우기](src/baekjoon/boj_2252_줄세우기) | G3 |
 
 
 ### 📌 프로그래머스 (Programmers)

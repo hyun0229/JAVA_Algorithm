@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "boj_2252",
+            "request": "launch",
+            "mainClass": "baekjoon.boj_2252",
+            "projectName": "JAVA_Algorithm_949a2228"
+        },
+        {
+            "type": "java",
             "name": "boj_14502_연구소",
             "request": "launch",
             "mainClass": "baekjoon.boj_14502_연구소",
