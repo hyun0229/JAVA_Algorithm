@@ -29,7 +29,7 @@
 | 15683번 | [감시](https://www.acmicpc.net/problem/15683) | [boj_15683_감시](src/baekjoon/boj_15683_감시) | G2 |
 | 14502번 | [연구소](https://www.acmicpc.net/problem/14502) | [boj_14502_연구소](src/baekjoon/boj_14502_연구소) | G4 |
 | 2252번 | [줄 세우기](https://www.acmicpc.net/problem/2252) | [boj_2252_줄세우기](src/baekjoon/boj_2252_줄세우기) | G3 |
-
+| 1939번 | [중량제한](https://www.acmicpc.net/problem/1939) | [boj_1939_중량제한](src/baekjoon/boj_1939_중량제한) | G3 |
 
 ### 📌 프로그래머스 (Programmers)
 | 문제 번호 | 문제 링크 | 코드 | 난이도 |

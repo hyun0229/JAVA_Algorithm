@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "boj_1939_중량제한",
+            "request": "launch",
+            "mainClass": "baekjoon.boj_1939_중량제한",
+            "projectName": "JAVA_Algorithm_949a2228"
+        },
+        {
+            "type": "java",
+            "name": "boj_1511_숫자만들기",
+            "request": "launch",
+            "mainClass": "baekjoon.boj_1511_숫자만들기",
+            "projectName": "JAVA_Algorithm_949a2228"
+        },
+        {
+            "type": "java",
             "name": "boj_2252",
             "request": "launch",
             "mainClass": "baekjoon.boj_2252",
