@@ -49,6 +49,8 @@
 | 172927 | [광물 캐기](https://school.programmers.co.kr/learn/courses/30/lessons/172927) | [pg_172927_광물캐기.java](src/Programmers/pg_172927_광물캐기.java) | Lv1 |
 | 150369 | [택배 배달과 수거하기](https://school.programmers.co.kr/learn/courses/30/lessons/150369) | [pg_150369_택배배달과수거하기.java](src/Programmers/pg_150369_택배배달과수거하기.java) | Lv2 |
 | 17676 | [추석 트래픽](https://school.programmers.co.kr/learn/courses/30/lessons/17676) | [pg_17676_추석트래픽.java](src/Programmers/pg_17676_추석트래픽.java) | Lv3 |
+| 42626 | [더 맵게](https://school.programmers.co.kr/learn/courses/30/lessons/42626) | [pg_42626_더맵게.java](src/Programmers/pg_42626_더맵게.java) | Lv2 |
+
 
 
 
