@@ -19,6 +19,8 @@ public class pg_42628_이중우선순위큐 {
                 if (order.equals("I")) {
                     String key = i + "," + num;
                     node tmp = new node(Integer.parseInt(num), key);
+                    minpq.add(tmp);
+                    maxpq.add(tmp);
                 } else {
                     if (num.equals("-1")) {
                         while (!minpq.isEmpty()) {
