@@ -31,7 +31,7 @@
 | 2252번 | [줄 세우기](https://www.acmicpc.net/problem/2252) | [boj_2252_줄세우기](src/baekjoon/boj_2252_줄세우기) | G3 |
 | 1939번 | [중량제한](https://www.acmicpc.net/problem/1939) | [boj_1939_중량제한](src/baekjoon/boj_1939_중량제한) | G3 |
 | 2110번 | [공유기 설치](https://www.acmicpc.net/problem/2110) | [boj_2110_공유기설치](src/baekjoon/boj_2110_공유기설치) | G4 |
-=======
+
 
 ### 📌 프로그래머스 (Programmers)
 | 문제 번호 | 문제 링크 | 코드 | 난이도 |
@@ -50,6 +50,9 @@
 | 150369 | [택배 배달과 수거하기](https://school.programmers.co.kr/learn/courses/30/lessons/150369) | [pg_150369_택배배달과수거하기.java](src/Programmers/pg_150369_택배배달과수거하기.java) | Lv2 |
 | 17676 | [추석 트래픽](https://school.programmers.co.kr/learn/courses/30/lessons/17676) | [pg_17676_추석트래픽.java](src/Programmers/pg_17676_추석트래픽.java) | Lv3 |
 | 42626 | [더 맵게](https://school.programmers.co.kr/learn/courses/30/lessons/42626) | [pg_42626_더맵게.java](src/Programmers/pg_42626_더맵게.java) | Lv2 |
+| 42746 | [가장 큰 수](https://school.programmers.co.kr/learn/courses/30/lessons/42746) | [pg_42746_가장큰수.java](src/Programmers/pg_42746_가장큰수.java) | Lv2 |
+| 43105 | [정수 삼각형](https://school.programmers.co.kr/learn/courses/30/lessons/43105) | [pg_43105_정수삼각형.java](src/Programmers/pg_43105_정수삼각형.java) | Lv3 |
+| 42627 | [디스크 컨트롤러러](https://school.programmers.co.kr/learn/courses/30/lessons/42627) | [pg_42627_디스크컨트롤러.java](src/Programmers/pg_42627_디스크컨트롤러.java) | Lv3 |
 
 
 
