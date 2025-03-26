@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SWEA_1238_Contact",
+            "request": "launch",
+            "mainClass": "SWEA.SWEA_1238_Contact",
+            "projectName": "JAVA_Algorithm_949a2228"
+        },
+        {
+            "type": "java",
             "name": "boj_10775_공항",
             "request": "launch",
             "mainClass": "baekjoon.boj_10775_공항",
