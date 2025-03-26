@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "boj_10775_공항",
+            "request": "launch",
+            "mainClass": "baekjoon.boj_10775_공항",
+            "projectName": "JAVA_Algorithm_949a2228"
+        },
+        {
+            "type": "java",
             "name": "boj_2110_공유기설치",
             "request": "launch",
             "mainClass": "baekjoon.boj_2110_공유기설치",

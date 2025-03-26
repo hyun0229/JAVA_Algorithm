@@ -39,7 +39,7 @@ public class pg_17676_추석트래픽 {
             int millis = Integer.parseInt(sec[1]);
 
             long end = hour * 3600000L + minute * 60000L + second * 1000L + millis;
-
+            
             double t = Double.parseDouble(dStr.replace("s", ""));
             long num = (long)(t * 1000);
 
@@ -55,4 +55,5 @@ public class pg_17676_추석트래픽 {
             }
         }
     }
+    
 }
