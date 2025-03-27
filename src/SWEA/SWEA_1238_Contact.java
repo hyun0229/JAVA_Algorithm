@@ -1,6 +1,5 @@
 package SWEA;
 
-import java.io.StringReader;
 import java.util.*;
 public class SWEA_1238_Contact {
     static Set<Integer> set;

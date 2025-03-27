@@ -54,6 +54,8 @@
 | 43105 | [정수 삼각형](https://school.programmers.co.kr/learn/courses/30/lessons/43105) | [pg_43105_정수삼각형.java](src/Programmers/pg_43105_정수삼각형.java) | Lv3 |
 | 42627 | [디스크 컨트롤러러](https://school.programmers.co.kr/learn/courses/30/lessons/42627) | [pg_42627_디스크컨트롤러.java](src/Programmers/pg_42627_디스크컨트롤러.java) | Lv3 |
 | 42628 | [이중우선순위큐](https://school.programmers.co.kr/learn/courses/30/lessons/42628) | [pg_42628_이중우선순위큐.java](src/Programmers/pg_42628_이중우선순위큐.java) | Lv3 |
+| 42576 | [완주하지 못한 선수](https://school.programmers.co.kr/learn/courses/30/lessons/42576) | [pg_42576_완주하지못한선수.java](src/Programmers/pg_42576_완주하지못한선수.java) | Lv2 |
+| 42586 | [기능개발](https://school.programmers.co.kr/learn/courses/30/lessons/42586) | [pg_42586_기능개발.java](src/Programmers/pg_42586_기능개발.java) | Lv2 |
 
 
 
