@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SWEA_7465",
+            "request": "launch",
+            "mainClass": "SWEA.SWEA_7465",
+            "projectName": "JAVA_Algorithm_eaf47939"
+        },
+        {
+            "type": "java",
             "name": "SWEA_1238_Contact",
             "request": "launch",
             "mainClass": "SWEA.SWEA_1238_Contact",
