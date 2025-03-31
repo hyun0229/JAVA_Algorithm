@@ -26,12 +26,12 @@
 | 20188번 | [등산 마니아](https://www.acmicpc.net/problem/20188) | [boj_20188_등산마니아.java](src/baekjoon/boj_20188_등산마니아.java) | P5 |
 | 1074번 | [Z](https://www.acmicpc.net/problem/1074) | [boj_1074_Z.java](src/baekjoon/boj_1074_Z.java) | G5 |
 | 24678번 | [돌무더기 게임 1](https://www.acmicpc.net/problem/24678) | [boj_24678_돌무더기게임1](src/baekjoon/boj_24678_돌무더기게임1) | G2 |
-| 15683번 | [감시](https://www.acmicpc.net/problem/15683) | [boj_15683_감시](src/baekjoon/boj_15683_감시) | G2 |
-| 14502번 | [연구소](https://www.acmicpc.net/problem/14502) | [boj_14502_연구소](src/baekjoon/boj_14502_연구소) | G4 |
-| 2252번 | [줄 세우기](https://www.acmicpc.net/problem/2252) | [boj_2252_줄세우기](src/baekjoon/boj_2252_줄세우기) | G3 |
-| 1939번 | [중량제한](https://www.acmicpc.net/problem/1939) | [boj_1939_중량제한](src/baekjoon/boj_1939_중량제한) | G3 |
-| 2110번 | [공유기 설치](https://www.acmicpc.net/problem/2110) | [boj_2110_공유기설치](src/baekjoon/boj_2110_공유기설치) | G4 |
-| 10775번 | [공항](https://www.acmicpc.net/problem/10775) | [boj_10775_공항](src/baekjoon/boj_10775_공항) | G2 |
+| 15683번 | [감시](https://www.acmicpc.net/problem/15683) | [boj_15683_감시](src/baekjoon/boj_15683_감시.java) | G2 |
+| 14502번 | [연구소](https://www.acmicpc.net/problem/14502) | [boj_14502_연구소](src/baekjoon/boj_14502_연구소.java) | G4 |
+| 2252번 | [줄 세우기](https://www.acmicpc.net/problem/2252) | [boj_2252_줄세우기](src/baekjoon/boj_2252_줄세우기.java) | G3 |
+| 1939번 | [중량제한](https://www.acmicpc.net/problem/1939) | [boj_1939_중량제한](src/baekjoon/boj_1939_중량제한.java) | G3 |
+| 2110번 | [공유기 설치](https://www.acmicpc.net/problem/2110) | [boj_2110_공유기설치](src/baekjoon/boj_2110_공유기설치.java) | G4 |
+| 10775번 | [공항](https://www.acmicpc.net/problem/10775) | [boj_10775_공항](src/baekjoon/boj_10775_공항.java) | G2 |
 
 ### 📌 프로그래머스 (Programmers)
 | 문제 번호 | 문제 링크 | 코드 | 난이도 |
