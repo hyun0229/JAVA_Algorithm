@@ -79,4 +79,5 @@
 | 17433 | 성적조회 | [SWEA_17433_성적조회.java](src/Programmers/SWEA_17433_성적조회.java) | -- |
 | 14616 | 승강제리그 | [SWEA_14616_승강제리그.java](src/Programmers/SWEA_14616_승강제리그.java) | -- |
 | 1238 | [Contact](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV15B1cKAKwCFAYD) | [SWEA_1238_Contact.java](src/Programmers/SWEA_1238_Contact.java) | D4 |
-| 7465 | [창용 마을 무리의 개수](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWngfZVa9XwDFAQU) | [SWEA_7465_창용마을무리의개수](src/Programmers/SWEA_7465_창용마을무리의개수) | D4 |
+| 7465 | [창용 마을 무리의 개수](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWngfZVa9XwDFAQU) | [SWEA_7465_창용마을무리의개수](src/Programmers/SWEA_7465_창용마을무리의개수.java) | D4 |
+| 1249 | [보급로](https://swexpertacademy.com/main/code/problem/problemSubmitHistory.do) | [SWEA_1249_보급로](src/Programmers/SWEA_1249_보급로.java) | D4 |
