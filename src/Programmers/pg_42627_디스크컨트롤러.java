@@ -3,7 +3,6 @@ import java.util.*;
 public class pg_42627_디스크컨트롤러 {
     class Solution {
         public int solution(int[][] jobs) {
-            int answer = 0;
             PriorityQueue<WaitTask> wait = new PriorityQueue<>();
             PriorityQueue<RunTask> run = new PriorityQueue<>();
             for(int i = 0; i<jobs.length;  i++){

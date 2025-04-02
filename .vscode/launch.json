@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SWEA_2117_홈방범서비스",
+            "request": "launch",
+            "mainClass": "SWEA.SWEA_2117_홈방범서비스",
+            "projectName": "JAVA_Algorithm_eaf47939"
+        },
+        {
+            "type": "java",
             "name": "boj_1038_감소하는수",
             "request": "launch",
             "mainClass": "baekjoon.boj_1038_감소하는수",

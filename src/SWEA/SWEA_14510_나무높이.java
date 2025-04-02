@@ -1,7 +1,6 @@
 package SWEA;
 
 import java.util.Arrays;
-import java.util.PriorityQueue;
 import java.util.Scanner;
 
 public class SWEA_14510_나무높이 {

@@ -2,7 +2,6 @@ package SWEA;
 
 import java.util.ArrayList;
 import java.util.Scanner;
-import java.io.FileInputStream;
 public class SWEA_2382_미생물격리 {
 	static int N,M,K;
 	static ArrayList<Integer>[][] map;

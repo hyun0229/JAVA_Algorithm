@@ -5,7 +5,6 @@ import java.util.*;
 public class pg_42586_기능개발 {
     class Solution {
     public Integer[] solution(int[] progresses, int[] speeds) {
-        int[] answer = {};
         Queue<Node> q = new ArrayDeque<>();
         for(int i = 0; i<progresses.length ; i++){
             q.add(new Node(progresses[i],speeds[i]));

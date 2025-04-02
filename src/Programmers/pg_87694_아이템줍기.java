@@ -1,7 +1,6 @@
 package Programmers;
 
 import java.util.ArrayDeque;
-import java.util.Arrays;
 import java.util.Queue;
 
 public class pg_87694_아이템줍기 {

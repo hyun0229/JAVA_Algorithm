@@ -2,8 +2,6 @@ package SWEA;
 
 import java.util.ArrayList;
 import java.util.Scanner;
-import java.io.FileInputStream;
-
 
 public class SWEA_1949_등산로조성
 {

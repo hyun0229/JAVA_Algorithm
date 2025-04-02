@@ -1,7 +1,5 @@
 package Programmers;
 
-import java.util.Arrays;
-
 public class pg_87946_피로도 {
 
     public static void main(String[] args) {

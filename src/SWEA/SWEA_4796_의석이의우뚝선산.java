@@ -1,7 +1,6 @@
 package SWEA;
 
 import java.util.Scanner;
-import java.io.FileInputStream;
 
 public class SWEA_4796_의석이의우뚝선산 {
     public static void main(String args[]) throws Exception

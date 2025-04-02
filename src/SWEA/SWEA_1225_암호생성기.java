@@ -11,7 +11,6 @@ public class SWEA_1225_암호생성기
         int T = 10;
 
         for (int test_case = 1; test_case <= T; test_case++) {
-            int test = scanner.nextInt(); 
             Queue<Integer> queue = new ArrayDeque<>();
 
             for (int i = 0; i < 8; i++) {
