@@ -17,7 +17,6 @@ public class pg_172927_광물캐기 {
 class Solution_172927 {
     public int solution(int[] picks, String[] minerals) {
         int answer = 0;
-        int N = minerals.length%5 == 0 ? minerals.length/5 : minerals.length/5 +1;
         int pick_num = (picks[0]+picks[1]+picks[2])*5;
         int num = 0;
         int arrs=0;
