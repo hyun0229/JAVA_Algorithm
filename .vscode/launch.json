@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "boj_1038_감소하는수",
+            "request": "launch",
+            "mainClass": "baekjoon.boj_1038_감소하는수",
+            "projectName": "JAVA_Algorithm_eaf47939"
+        },
+        {
+            "type": "java",
             "name": "SWEA_1249_보급로",
             "request": "launch",
             "mainClass": "SWEA.SWEA_1249_보급로",

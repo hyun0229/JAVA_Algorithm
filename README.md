@@ -32,6 +32,7 @@
 | 1939번 | [중량제한](https://www.acmicpc.net/problem/1939) | [boj_1939_중량제한](src/baekjoon/boj_1939_중량제한.java) | G3 |
 | 2110번 | [공유기 설치](https://www.acmicpc.net/problem/2110) | [boj_2110_공유기설치](src/baekjoon/boj_2110_공유기설치.java) | G4 |
 | 10775번 | [공항](https://www.acmicpc.net/problem/10775) | [boj_10775_공항](src/baekjoon/boj_10775_공항.java) | G2 |
+| 10775번 | [감소하는 수](https://www.acmicpc.net/problem/1038) | [boj_1038_감소하는수](src/baekjoon/boj_1038_감소하는수.java) | G5 |
 
 ### 📌 프로그래머스 (Programmers)
 | 문제 번호 | 문제 링크 | 코드 | 난이도 |

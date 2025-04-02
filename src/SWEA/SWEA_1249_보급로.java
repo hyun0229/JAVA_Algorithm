@@ -2,12 +2,9 @@ package SWEA;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
+
 import java.util.Arrays;
 import java.util.PriorityQueue;
-import java.util.Scanner;
-import java.util.StringTokenizer;
-
 public class SWEA_1249_보급로 {
     static int N;
     static int[][] grid;
