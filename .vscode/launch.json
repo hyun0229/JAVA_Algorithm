@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "boj_1027_고층건물",
+            "request": "launch",
+            "mainClass": "baekjoon.boj_1027_고층건물",
+            "projectName": "JAVA_Algorithm_eaf47939"
+        },
+        {
+            "type": "java",
             "name": "boj_15486_퇴사2",
             "request": "launch",
             "mainClass": "baekjoon.boj_15486_퇴사2",

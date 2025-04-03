@@ -24,7 +24,6 @@ public class boj_3109_빵집 {
             flag = false;
             dfs(i,0);
         }
-        
         System.out.println(ans);
     }
     private static void dfs(int x, int y) {
