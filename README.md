@@ -35,6 +35,7 @@
 | 1038번 | [감소하는 수](https://www.acmicpc.net/problem/1038) | [boj_1038_감소하는수](src/baekjoon/boj_1038_감소하는수.java) | G5 |
 | 15486번 | [퇴사 2](https://www.acmicpc.net/problem/15486) | [boj_15486_퇴사2](src/baekjoon/boj_15486_퇴사2.java) | G5 |
 | 1027번 | [고층 건물](https://www.acmicpc.net/problem/1027) | [boj_1027_고층건물](src/baekjoon/boj_1027_고층건물.java) | G4 |
+| 1520번 | [내리막 길](https://www.acmicpc.net/problem/1520) | [boj_1520_내리막길](src/baekjoon/boj_1520_내리막길.java) | G3 |
 ### 📌 프로그래머스 (Programmers)
 | 문제 번호 | 문제 링크 | 코드 | 난이도 |
 |----------|----------|------|------|

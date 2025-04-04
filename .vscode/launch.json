@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "boj_1520_내리막길",
+            "request": "launch",
+            "mainClass": "baekjoon.boj_1520_내리막길",
+            "projectName": "JAVA_Algorithm_eaf47939"
+        },
+        {
+            "type": "java",
+            "name": "TestTool",
+            "request": "launch",
+            "mainClass": "SWEA.TestTool",
+            "projectName": "JAVA_Algorithm_eaf47939"
+        },
+        {
+            "type": "java",
             "name": "boj_1027_고층건물",
             "request": "launch",
             "mainClass": "baekjoon.boj_1027_고층건물",
