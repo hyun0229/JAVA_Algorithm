@@ -37,6 +37,7 @@
 | 1027번 | [고층 건물](https://www.acmicpc.net/problem/1027) | [boj_1027_고층건물](src/baekjoon/boj_1027_고층건물.java) | G4 |
 | 1520번 | [내리막 길](https://www.acmicpc.net/problem/1520) | [boj_1520_내리막길](src/baekjoon/boj_1520_내리막길.java) | G3 |
 | 2458번 | [키 순서](https://www.acmicpc.net/problem/2458) | [boj_2458_키순서](src/baekjoon/boj_2458_키순서.java) | G4 |
+| 12823번 | [Critical Projects](https://www.acmicpc.net/problem/12823) | [boj_12823_CriticalProjects](src/baekjoon/boj_12823_CriticalProjects.java) | D4 |
 ### 📌 프로그래머스 (Programmers)
 | 문제 번호 | 문제 링크 | 코드 | 난이도 |
 |----------|----------|------|------|
