@@ -59,6 +59,7 @@
 | 42628 | [이중우선순위큐](https://school.programmers.co.kr/learn/courses/30/lessons/42628) | [pg_42628_이중우선순위큐.java](src/Programmers/pg_42628_이중우선순위큐.java) | Lv3 |
 | 42576 | [완주하지 못한 선수](https://school.programmers.co.kr/learn/courses/30/lessons/42576) | [pg_42576_완주하지못한선수.java](src/Programmers/pg_42576_완주하지못한선수.java) | Lv2 |
 | 42586 | [기능개발](https://school.programmers.co.kr/learn/courses/30/lessons/42586) | [pg_42586_기능개발.java](src/Programmers/pg_42586_기능개발.java) | Lv2 |
+| 1832 | [보행자 천국](https://school.programmers.co.kr/learn/courses/30/lessons/1832) | [pg_1832_보행자천국.java](src/Programmers/pg_1832_보행자천국.java) | Lv3 |
 
 
 
