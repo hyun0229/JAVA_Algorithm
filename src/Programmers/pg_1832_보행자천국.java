@@ -7,12 +7,9 @@ public class pg_1832_보행자천국 {
         int N,M;
         int dx[] = {0,1};
         int dy[] = {1,0};
-        boolean vis[][];
         public int solution(int m, int n, int[][] cityMap) {
-            int answer = 0;
             N = m;
             M = n;
-            vis = new boolean[N][M];
             memo = new int[N][M][3];
             for(int i = 0; i<N; i++){
                 for(int j = 0; j<M; j++){
@@ -22,7 +19,7 @@ public class pg_1832_보행자천국 {
                 }
             }
             memo[N-1][M-1][2] = 1;
-            return answer = dfs(0, 0, 2, cityMap);
+            return dfs(0, 0, 2, cityMap);
         }
         private int dfs(int x, int y,int idx, int[][] map) {
             if(memo[x][y][idx]!=-1)return memo[x][y][idx];
@@ -35,14 +32,11 @@ public class pg_1832_보행자천국 {
                 else {
                     int num = 2;
                     if(map[nx][ny] == 2)num = i;
-                    vis[nx][ny] = true;
-                    ans += dfs(nx, ny,num,map);
-                    vis[nx][ny] = false;                
+                    ans += dfs(nx, ny,num,map);         
                 }
             }
             return memo[x][y][idx] = ans%MOD;
         }
         
     }
-
 }

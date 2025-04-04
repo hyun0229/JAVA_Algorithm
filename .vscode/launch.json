@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "boj_12823_CriticalProjects",
+            "request": "launch",
+            "mainClass": "baekjoon.boj_12823_CriticalProjects",
+            "projectName": "JAVA_Algorithm_eaf47939"
+        },
+        {
+            "type": "java",
             "name": "boj_1520_내리막길",
             "request": "launch",
             "mainClass": "baekjoon.boj_1520_내리막길",

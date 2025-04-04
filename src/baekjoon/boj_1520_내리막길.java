@@ -10,7 +10,6 @@ public class boj_1520_내리막길 {
     static int N,M;
     static int dx[] = {0,1,0,-1};
     static int dy[] = {1,0,-1,0};
-    static boolean vis[][];
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
@@ -25,7 +24,6 @@ public class boj_1520_내리막길 {
                 memo[i][j] = -1;
             }
         }
-        vis = new boolean[N][M];
         int ans = dfs(0,0);
         System.out.println(ans);
     }
@@ -40,9 +38,7 @@ public class boj_1520_내리막길 {
             if(nx<0||ny<0||nx>=N||ny>=M||map[x][y]<=map[nx][ny])continue;
             if (memo[nx][ny]!=-1)memo[x][y]+=memo[nx][ny];
             else {
-                vis[nx][ny] = true;
-                memo[x][y]+= dfs(nx, ny);
-                vis[nx][ny] = false;                
+                memo[x][y]+= dfs(nx, ny);           
             }
         }
         return memo[x][y];
