@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SWEA_3282",
+            "request": "launch",
+            "mainClass": "SWEA.SWEA_3282",
+            "projectName": "JAVA_Algorithm_eaf47939"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "baekjoon.Main",

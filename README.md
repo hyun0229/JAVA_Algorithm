@@ -87,4 +87,5 @@
 | 1238 | [Contact](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV15B1cKAKwCFAYD) | [SWEA_1238_Contact.java](src/Programmers/SWEA_1238_Contact.java) | D4 |
 | 7465 | [창용 마을 무리의 개수](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWngfZVa9XwDFAQU) | [SWEA_7465_창용마을무리의개수](src/Programmers/SWEA_7465_창용마을무리의개수.java) | D4 |
 | 1249 | [보급로](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV15QRX6APsCFAYD) | [SWEA_1249_보급로](src/Programmers/SWEA_1249_보급로.java) | D4 |
-| 1249 | [홈 방범 서비스](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5V61LqAf8DFAWu) | [SWEA_2117_홈방범서비스](src/Programmers/SWEA_2117_홈방범서비스.java) | 모의 SW 역량테스트 |
+| 2117 | [홈 방범 서비스](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5V61LqAf8DFAWu) | [SWEA_2117_홈방범서비스](src/Programmers/SWEA_2117_홈방범서비스.java) | 모의 SW 역량테스트 |
+| 3238 | [ 0/1 Knapsack](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWBJAVpqrzQDFAWr) | [SWEA_3282_Knapsack](src/Programmers/SWEA_3282_Knapsack.java) | D3 |
