@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "boj_12865_평범한배낭",
+            "request": "launch",
+            "mainClass": "baekjoon.boj_12865_평범한배낭",
+            "projectName": "JAVA_Algorithm_eaf47939"
+        },
+        {
+            "type": "java",
+            "name": "bj_11722__가장긴감소하는부분수열_이진탐색버전",
+            "request": "launch",
+            "mainClass": "baekjoon.bj_11722__가장긴감소하는부분수열_이진탐색버전",
+            "projectName": "JAVA_Algorithm_eaf47939"
+        },
+        {
+            "type": "java",
+            "name": "bj_11722__가장긴감소하는부분수열_treeMap버전",
+            "request": "launch",
+            "mainClass": "baekjoon.bj_11722__가장긴감소하는부분수열_treeMap버전",
+            "projectName": "JAVA_Algorithm_eaf47939"
+        },
+        {
+            "type": "java",
+            "name": "bj_11722_가장긴감소하는부분수열",
+            "request": "launch",
+            "mainClass": "baekjoon.bj_11722_가장긴감소하는부분수열",
+            "projectName": "JAVA_Algorithm_eaf47939"
+        },
+        {
+            "type": "java",
             "name": "SWEA_3282",
             "request": "launch",
             "mainClass": "SWEA.SWEA_3282",

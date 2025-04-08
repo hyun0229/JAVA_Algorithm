@@ -38,6 +38,9 @@
 | 1520번 | [내리막 길](https://www.acmicpc.net/problem/1520) | [boj_1520_내리막길](src/baekjoon/boj_1520_내리막길.java) | G3 |
 | 2458번 | [키 순서](https://www.acmicpc.net/problem/2458) | [boj_2458_키순서](src/baekjoon/boj_2458_키순서.java) | G4 |
 | 12823번 | [Critical Projects](https://www.acmicpc.net/problem/12823) | [boj_12823_CriticalProjects](src/baekjoon/boj_12823_CriticalProjects.java) | D4 |
+| 11722번 | [가장 긴 감소하는 부분 수열 v1](https://www.acmicpc.net/problem/11722) | [bj_11722_가장긴감소하는부분수열_세그버전](src/baekjoon/bj_11722_가장긴감소하는부분수열_세그버전.java) | S2 |
+| 11722번 | [가장 긴 감소하는 부분 수열 v2](https://www.acmicpc.net/problem/11722) | [bj_11722__가장긴감소하는부분수열_이진탐색버전](src/baekjoon/bj_11722__가장긴감소하는부분수열_이진탐색버전.java) | S2 |
+| 12865번 | [평범한 배낭](https://www.acmicpc.net/problem/12865) | [boj_12865_평범한배낭](src/baekjoon/boj_12865_평범한배낭.java) | D4 |
 ### 📌 프로그래머스 (Programmers)
 | 문제 번호 | 문제 링크 | 코드 | 난이도 |
 |----------|----------|------|------|
