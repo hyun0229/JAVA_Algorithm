@@ -92,3 +92,4 @@
 | 1249 | [보급로](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV15QRX6APsCFAYD) | [SWEA_1249_보급로](src/Programmers/SWEA_1249_보급로.java) | D4 |
 | 2117 | [홈 방범 서비스](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5V61LqAf8DFAWu) | [SWEA_2117_홈방범서비스](src/Programmers/SWEA_2117_홈방범서비스.java) | 모의 SW 역량테스트 |
 | 3238 | [ 0/1 Knapsack](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWBJAVpqrzQDFAWr) | [SWEA_3282_Knapsack](src/Programmers/SWEA_3282_Knapsack.java) | D3 |
+| 3307 | [ 최장 증가 부분 수열 ](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWBOKg-a6l0DFAWr) | [SWEA_3307_최장증가부분수열](src/Programmers/SWEA_3307_최장증가부분수열.java) | D3 |
