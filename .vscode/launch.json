@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "boj_11404_플로이드",
+            "request": "launch",
+            "mainClass": "baekjoon.boj_11404_플로이드",
+            "projectName": "JAVA_Algorithm_eaf47939"
+        },
+        {
+            "type": "java",
             "name": "SWEA_1953_탈주범검거",
             "request": "launch",
             "mainClass": "SWEA.SWEA_1953_탈주범검거",

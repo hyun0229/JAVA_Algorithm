@@ -70,7 +70,7 @@ public class SWEA_1953_탈주범검거 {
             for (int i = 0; i < 4; i++) {
                 int nx = x + dx[i];
                 int ny = y + dy[i];
-                if(nx<0||ny<0||nx>=N||ny>=N||map[nx][ny] == 0 || vis[nx][ny])continue;
+                if(nx<0||ny<0||nx>=N||ny>=M||map[nx][ny] == 0 || vis[nx][ny])continue;
                 int now = map[x][y];
                 int go = map[nx][ny];
                 if (!chk[now][i]||!chk[go][(i+2)%4])continue;
