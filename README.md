@@ -66,10 +66,6 @@
 | 42586 | [기능개발](https://school.programmers.co.kr/learn/courses/30/lessons/42586) | [pg_42586_기능개발.java](src/Programmers/pg_42586_기능개발.java) | Lv2 |
 | 1832 | [보행자 천국](https://school.programmers.co.kr/learn/courses/30/lessons/1832) | [pg_1832_보행자천국.java](src/Programmers/pg_1832_보행자천국.java) | Lv3 |
 
-
-
-
-
 ### 📌 SWEA (SW Expert Academy)
 | 문제 번호 | 문제 링크 | 코드 | 난이도 |
 |----------|----------|------|------|
@@ -93,3 +89,5 @@
 | 2117 | [홈 방범 서비스](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5V61LqAf8DFAWu) | [SWEA_2117_홈방범서비스](src/Programmers/SWEA_2117_홈방범서비스.java) | 모의 SW 역량테스트 |
 | 3238 | [ 0/1 Knapsack](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWBJAVpqrzQDFAWr) | [SWEA_3282_Knapsack](src/Programmers/SWEA_3282_Knapsack.java) | D3 |
 | 3307 | [ 최장 증가 부분 수열 ](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWBOKg-a6l0DFAWr) | [SWEA_3307_최장증가부분수열](src/Programmers/SWEA_3307_최장증가부분수열.java) | D3 |
+| 1953 | [ 탈주범 검거 ](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PpLlKAQ4DFAUq) | [SWEA_1953_탈주범검거](src/Programmers/SWEA_1953_탈주범검거.java) | 모의 SW 역량테스트 |
+| 1263 | [ 사람 네트워크2 ](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV18P2B6Iu8CFAZN) | [SWEA_1263_사람네트워크2](src/Programmers/SWEA_1263_사람네트워크2.java) | D6 |

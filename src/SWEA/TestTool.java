@@ -37,7 +37,6 @@ public class TestTool {
                             Dp[k] = Math.max(Dp[k], Dp[k-w]+v);
                         }
                     }
-                   // System.out.println(Arrays.toString(Dp));
                 }
                 Ms+=Dp[Ms];
                 Ms+=Ma;

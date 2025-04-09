@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SWEA_1953_탈주범검거",
+            "request": "launch",
+            "mainClass": "SWEA.SWEA_1953_탈주범검거",
+            "projectName": "JAVA_Algorithm_eaf47939"
+        },
+        {
+            "type": "java",
+            "name": "boj_13976_타일채우기2",
+            "request": "launch",
+            "mainClass": "baekjoon.boj_13976_타일채우기2",
+            "projectName": "JAVA_Algorithm_eaf47939"
+        },
+        {
+            "type": "java",
+            "name": "SWEA_1263_사람네트워크2",
+            "request": "launch",
+            "mainClass": "SWEA.SWEA_1263_사람네트워크2",
+            "projectName": "JAVA_Algorithm_eaf47939"
+        },
+        {
+            "type": "java",
             "name": "SWEA_3307_최장증가부분수열",
             "request": "launch",
             "mainClass": "SWEA.SWEA_3307_최장증가부분수열",
