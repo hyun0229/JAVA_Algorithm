@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "boj_1786_찾기",
+            "request": "launch",
+            "mainClass": "baekjoon.boj_1786_찾기",
+            "projectName": "JAVA_Algorithm_eaf47939"
+        },
+        {
+            "type": "java",
             "name": "SWEA_5656_벽돌깨기",
             "request": "launch",
             "mainClass": "SWEA.SWEA_5656_벽돌깨기",

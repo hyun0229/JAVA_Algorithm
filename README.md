@@ -42,6 +42,7 @@
 | 11722번 | [가장 긴 감소하는 부분 수열 v2](https://www.acmicpc.net/problem/11722) | [bj_11722__가장긴감소하는부분수열_이진탐색버전](src/baekjoon/bj_11722__가장긴감소하는부분수열_이진탐색버전.java) | S2 |
 | 12865번 | [평범한 배낭](https://www.acmicpc.net/problem/12865) | [boj_12865_평범한배낭](src/baekjoon/boj_12865_평범한배낭.java) | G4 |
 | 11404번 | [플로이드](https://www.acmicpc.net/problem/11404) | [boj_11404_플로이드](src/baekjoon/boj_11404_플로이드.java) | G4 |
+| 1786번 | [찾기](https://www.acmicpc.net/problem/1786) | [boj_1786_찾기](src/baekjoon/boj_1786_찾기.java) | P5 |
 ### 📌 프로그래머스 (Programmers)
 | 문제 번호 | 문제 링크 | 코드 | 난이도 |
 |----------|----------|------|------|
