@@ -66,7 +66,6 @@
 | 42576 | [완주하지 못한 선수](https://school.programmers.co.kr/learn/courses/30/lessons/42576) | [pg_42576_완주하지못한선수.java](src/Programmers/pg_42576_완주하지못한선수.java) | Lv2 |
 | 42586 | [기능개발](https://school.programmers.co.kr/learn/courses/30/lessons/42586) | [pg_42586_기능개발.java](src/Programmers/pg_42586_기능개발.java) | Lv2 |
 | 1832 | [보행자 천국](https://school.programmers.co.kr/learn/courses/30/lessons/1832) | [pg_1832_보행자천국.java](src/Programmers/pg_1832_보행자천국.java) | Lv3 |
-
 ### 📌 SWEA (SW Expert Academy)
 | 문제 번호 | 문제 링크 | 코드 | 난이도 |
 |----------|----------|------|------|
@@ -92,3 +91,4 @@
 | 3307 | [ 최장 증가 부분 수열 ](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWBOKg-a6l0DFAWr) | [SWEA_3307_최장증가부분수열](src/Programmers/SWEA_3307_최장증가부분수열.java) | D3 |
 | 1953 | [ 탈주범 검거 ](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PpLlKAQ4DFAUq) | [SWEA_1953_탈주범검거](src/Programmers/SWEA_1953_탈주범검거.java) | 모의 SW 역량테스트 |
 | 1263 | [ 사람 네트워크2 ](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV18P2B6Iu8CFAZN) | [SWEA_1263_사람네트워크2](src/Programmers/SWEA_1263_사람네트워크2.java) | D6 |
+| 5656 | [ 벽돌깨기 ](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRQm6qfL0DFAUo) | [SWEA_5656_벽돌깨기](src/Programmers/SWEA_5656_벽돌깨기.java) | 모의 SW 역량테스트 |
