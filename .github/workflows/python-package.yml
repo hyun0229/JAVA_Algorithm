@@ -26,8 +26,8 @@ jobs: # 실제 실행될 내용
         python update.py
     - name: Commit changes # 3) 추가된 파일 commit
       run: |
-        git config --global user.name 'Ori-Gui' # 유저명
-        git config --global user.email 'dign552@naver.com' # 유저 이메일
+        git config --global user.name 'Hyun0229' # 유저명
+        git config --global user.email 'dhgustjr29@naver.com' # 유저 이메일
         git add -A
         git commit -am "auto update README.md" # 커밋 메시지
     - name: Push changes # 4) 메인에 푸시
