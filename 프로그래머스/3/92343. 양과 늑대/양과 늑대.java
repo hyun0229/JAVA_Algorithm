@@ -1,41 +1,48 @@
-import java.util.*;
-
 class Solution {
-    int maxSheep = 0;
-    List<Integer>[] tree;
-
     public int solution(int[] info, int[][] edges) {
-        int n = info.length;
-        tree = new ArrayList[n];
-        for (int i = 0; i < n; i++) {
-            tree[i] = new ArrayList<>();
+        int N = info.lenght;
+        List<Integer>[] edgeList = new ArrayList[N];
+        for(int i = 0; i<edges.lenght; i++){
+            edgeList[i] = new ArrayList<>();
         }
-        for (int[] edge : edges) {
-            tree[edge[0]].add(edge[1]);
+        
+        for(int i = 0; i<edges.lenght; i++){
+            int x = edges[0];
+            int y = edges[1];
+            edgeList[x].add(y);
+            edgeList[y].add(x);
         }
+        boolean vis[][] = new int[N][1<<N];
+        Queue<Node> q = new ArrayDeque<>();
+        vis[0][0] = true;
+        q.add(new Node(0,0,1,1,0));
+        while(!q.isEmpty()){
+            Node node = q.poll;
+            int now = node.now;
+            int before = node.now;
+            int sheep = node.sheep;
+            int wolf = node.wolf;
+            int key = node.key;
+            for(int i : edgeList[now]]){
+                int nextkey = |= (1 << 0);
+                if((vis[i][j])==key)continue;
 
-        // 시작 노드 0부터 DFS
-        Set<Integer> next = new HashSet<>();
-        next.add(0);
-        dfs(0, 0, 0, next, info);
-
-        return maxSheep;
+            }
+            
+        }
+        
+        
+        
+        return answer;
     }
-
-    private void dfs(int node, int sheep, int wolf, Set<Integer> next, int[] info) {
-        if (info[node] == 0) sheep++;
-        else wolf++;
-
-        if (wolf >= sheep) return;
-
-        maxSheep = Math.max(maxSheep, sheep);
-
-        Set<Integer> newNext = new HashSet<>(next);
-        newNext.remove(node);
-        newNext.addAll(tree[node]);
-
-        for (int nextNode : newNext) {
-            dfs(nextNode, sheep, wolf, newNext, info);
+    public class Node{
+        int now, before, key, sheep, wolf;
+        public node(int now, int before, int key, int sheep, int wolf){
+            this.now = now;
+            this.before = before;
+            this.key = key;
+            this.sheep = sheep;
+            this.wolf = wolf;
         }
     }
 }
