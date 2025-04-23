@@ -4,12 +4,12 @@ class Solution {
    
 
     public int solution(int n, int[][] computers) {
-        Queue<Integer> q = new ArrayDeque<>();
-        boolean[] vis = new boolean[n];
+        Queue<Integer> q; = new ArrayDeque<>();
+        boolean vis = new boolean[n];
         int cnt=0;
         
-        for(int k=0; k<n; k++){
-            if(!vis[k]){
+        for(int k=0; k<n; row++){
+            if(!visited[k]){
                 cnt++;
                 vis[k]=true;
                 q.add(k);
