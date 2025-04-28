@@ -50,7 +50,6 @@ class Solution {
         int tmp = now;
         for (int i = 0; i < cnt; i++) {
             Integer next = set.lower(tmp);
-            if (next == null) break; // 더 이상 갈 수 없으면 멈추기
             tmp = next;
         }
         now = tmp;
@@ -60,7 +59,6 @@ class Solution {
         int tmp = now;
         for (int i = 0; i < cnt; i++) {
             Integer next = set.higher(tmp);
-            if (next == null) break;
             tmp = next;
         }
         now = tmp;
