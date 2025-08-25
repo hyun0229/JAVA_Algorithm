@@ -2,8 +2,6 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayDeque;
-import java.util.Queue;
-import java.util.StringTokenizer;
 
 public class Main {
     public static void main(String[] args) throws IOException {
@@ -19,16 +17,15 @@ public class Main {
             int Max = Integer.MIN_VALUE;
             int Min = Integer.MAX_VALUE;
             int K = Integer.parseInt(br.readLine());
-            int arr[] = new int[26];
             int dist = 0;
             for(char c : s.toCharArray()){
                 dist++;
-                q[c-'a'].add(dist);
-                if (++arr[c-'a'] == K){
-                    int tmp = dist - q[c-'a'].poll();
+                int arpha = c-'a';
+                q[arpha].add(dist);
+                if ( q[arpha].size() == K){
+                    int tmp = dist - q[arpha].poll();
                     Max = Math.max(Max,tmp);
                     Min = Math.min(Min,tmp);
-                    arr[c-'a']--;
                 }
             }
             if (Max == Integer.MIN_VALUE){
